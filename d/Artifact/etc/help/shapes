@@ -1,0 +1,17 @@
+As you level up as an artifact, you will gain access to more and better weapon
+shapes. There are 9 categories of shapes (one per row in the table below), and
+for each category there are 3 variations. Within one category the higher level
+shape is always better.
+
+@pre
+Shape   Glyph Spell Quirk Level:Name
+-------------------------------------------------------------------------
+Sword      +1     -     - 1:Machete       11:Gladius      21:Longsword
+Mace        -    +1     - 2:Spiked Club   12:Flanged Mace 22:Morning Star
+Axe         -     -    +5 3:Tomahawk      13:Dane Axe     23:Bearded Axe
+Sword 2h   +1     -    +5 4:Bastard sword 14:Claymore     24:Zweihander
+Mace 2h    +1    +1     - 5:Maul          15:War Hammer   25:Spiked Flail
+Axe 2h      -    +1    +5 6:War Scythe    16:Halberd      26:Great Axe
+Spear      +2     -     - 7:Pike          17:Spear        27:Winged Spear
+Staff     (-1)   +2     - 8:Wand          18:Sceptre      28:Quarterstaff
+Katana    (-1)    -   +10 9:Tanto         19:Uchigatana   29:Nodachi

@@ -1,0 +1,49 @@
+Damage over time:                       Damage histogram:
+                                        
+ 283 |                             #      16 |   #                            
+     |                             #         |   #  # #                       
+     |                             # #       |####  ###                       
+     |                             # #       |##### ###                       
+     |                             ###       |##### ###                       
+     |  # #        #  #  #    # ######       |############                    
+     | #### # ###  ## ##### ### ######       |##############                  
+     |################################       |##############                  
+     |################################       |################ #  #           
+     |################################       |################ #### #        #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             157       0                             283
+
+Hit count over time:                    Hit count histogram:
+                                        
+   6 |                #       #           70 |          ####                  
+     |#             # #      ##              |          ####                  
+     |#             # #      ##              |          ####                  
+     |## ##      #### #      ##  # #         |     #########                  
+     |## ##      #### #      ##  # #         |     #########                  
+     |## ##    ###### ######### ######       |     ##############             
+     |################################       |     ##############             
+     |################################       |     ##############             
+     |################################       |     ##############             
+     |################################       |################################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             157       0                               6
+
+===> Round: 157   Damage: 26    Max: 196  Total: 10016  Average: 63.39
+===> Round: 157   Hits:   1     Max: 6    Total: 330    Average: 2.09
+===> Round: 157   Busy:   0     Max: 3    Total: 18     Average: 0.11
+
+The hammer has a flat wc of 100. There is a (con / (con + 10)) chance that the
+wielder will auto-miss (29 con => 26%, 40 con => 20%, 50 con => 17%). Each
+heart-beat the wielder checks query_attackers() to see if anyone has less than
+75 hp. If so, it insta-kills that attacker.
+
+With 29 con:
+===> Round: 130   Damage: 26    Max: 62   Total: 3067   Average: 23.41
+
+With 40 con:
+===> Round: 123   Damage: 55    Max: 62   Total: 3051   Average: 24.60
+
+With 50 con:
+===> Round: 115   Damage: 70    Max: 63   Total: 3012   Average: 25.97
+
+For comparison, /d/Frost/temple/weapons/chaos with 29 str does 24.55 avg.

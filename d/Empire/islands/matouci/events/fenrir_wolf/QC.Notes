@@ -1,0 +1,32 @@
+QC of project 466: The Fenrir Wolf
+Creator: Khaine
+Checking arch: Gaeius
+QC begun: 5-Jul-2010
+QC Completed: 31-Aug-2010
+QC Status: APPROVED
+
+.:
+claw.c
+  TUNE: wc 17
+
+  A: Done.
+
+cloak.c
+  LANGUAGE: "This is the bloody" -> "These are the bloody"
+            "It is remarkably" -> "They are remarkably"
+
+  A: Done.
+
+event.c [OK]
+lclaw.c [OK]
+rclaw.c [OK]
+spirit.c [OK]
+wolf.c
+  DESC: For continuity, the metal collar should have remain
+        of a torn chain instead of roppe.
+
+  A: Done.
+
+  Interesting twist with the uniques, making it so that
+  players have to find and kill Fenrir three times to get
+  all the unique gear. I like it.

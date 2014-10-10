@@ -1,0 +1,17 @@
+sliver_base
+`- sliver_desc
+   `- sliver_util
+      `- effect_sliver
+      `- glyph_sliver
+      `- quirk_sliver
+      `- shape_sliver
+      `- skill_sliver
+      `- spell_sliver
+
+weapon_base
+`- weapon_desc
+   `- weapon_echo
+      `- weapon_util
+         `- weapon_player
+            `- weapon_owner
+               `- weapon_user

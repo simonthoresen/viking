@@ -1,0 +1,11 @@
+You may consume any food, drink, armour or weapon. The item you want to consume
+needs to be either in the same room as you, carried by your owner, or in a
+container carried by your owner.
+
+When you consume a food or a drink, it has the same effect as if any mortal had
+eaten or drunk that item.
+
+When you consume a piece of armour or a weapon, you will automatically wear or
+wield it. If the corresponding slot is already occupied, you need to release the
+corresponding item first.  You can see what items you are currently using by
+typing "consumed".

@@ -1,0 +1,19 @@
+QC of project #468: The Viscidus Slime
+Creator: Khaine
+Submitted: 5-Aug-2010
+Checking arch: Gaeius
+QC begun: 26-Aug-2010
+QC completed: 31-Aug-2010 
+Project Status: APPROVED
+
+.:
+event.c [OK]
+glob.c [OK]  (way cool!)
+ring.c
+  From the desc, it sounds like this should be vuln_fire.
+  TUNE: The damage output on this can be insane, so I'd
+        like to see that random(2) turn into a random(5).
+
+  A: Done.
+
+slime.c [OK]

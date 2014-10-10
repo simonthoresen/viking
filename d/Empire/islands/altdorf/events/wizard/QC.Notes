@@ -1,0 +1,75 @@
+QC of project #486: Uglyman
+Submitted 2011 Mar 3 by Cryzeck
+Checking arch: Khaine
+QC begun 2011 Mar 4
+QC completed 2011 Mar 8
+
+[chant.c]
+* Ok. There is a mudlib issue preventing wear() from being called when cloning,
+  I will look into that.
+
+[uglyman.c]
+* Short descs should not be capitalized nor punctuated. Change to "an ugly old
+  man named Brendan"
+	
+  ===> Round:101  Damage:15   Total:2013  Average:19.930693  Max:42  
+
+* I would appreciate it if the code was readable using screen width 80, i.e.
+  break the lines so that they don't wrap:
+
+  if (!objectp(env = environment(this_object())) || 
+      !objectp(present(co, env)) || 
+      query_attack()) 
+  { // i always put the { on a new line if the preceding block is multiline
+    return; 
+  }
+
+* There is no need to call environment(this_object()), if you check man pages
+  of environment it states that it uses this_object() if none is given, so
+  
+  if (!objectp(env = environment())) {
+    return;
+  }
+
+* Why is your player-array named "myenv", wouldn't "inv", "arr", or "players"
+  be more appropriate?
+
+[sword.c]
+* Stats for player with 40 all stats fighting default hurtme (sp was maxed out
+  throughout the fight, costing a total of 2678 sp):
+
+ ===> Round:297  Damage:90   Total:9990  Average:33.636364  Max:70 
+	brukte 2800SP
+
+[event.c]
+* I would like to see another message than "bumping into". Just because I failed
+  to come up with anything better for my first events doesn't mean it always has
+  to be like that.
+
+[QC Notes Azatoth]
+The damage distribution seemed fine considering the SP drain, 
+I also tested the sword with a mage character and got a much higher 
+average, but these can't wield two weps so it balances itself out 
+somewhat nicely. 
+
+However, the query_sp number should be capped. Basically all weaponry 
+with capacity for "endless damage" (even if such is not possible as of yet) 
+must be capped. You might want to remove the damage-cap for your brendan NPC, 
+do so by using a technique that can't be duplicated by a player in the open 
+MUD.
+
+
+[wizard.c]
+Seems seems a bit puny to be called "almighty wizard", and should be a bit 
+harder...right now this is (unless I am missing something in my tests) a very
+easy kill.
+
+[chant.c]
+This is fine.
+
+[descs]
+Descs are a bit barebone, but they're functional enough.
+
+
+
+

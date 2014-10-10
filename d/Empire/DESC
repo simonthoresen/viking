@@ -1,0 +1,27 @@
+The Empire is a collection of pre-generated static islands. Each
+island is described by an island.c file in a subdirectory of
+[islands/]. The one being submitted for QC is matouci.
+
+The command [com/w/igen] will generate room files in
+[var/islands/]. The room files written are based off the terrain type
+in the map returned by the island object, but can be extended by
+adding subdirectories of the corresponding map-type to the
+islands-directory. To extend the "a" map-type, add an [a/room] file to
+the islands directory. Matouci has only done this for the 3 special
+rooms; A - entrance, B - exit, and R - runewaker guild.
+
+All the events submitted have already been QC'ed for Matouci, except
+for the Jormungand serpent, they have only been moved. The serpent had
+to be modified, as it was a wandering mob in matouci. It will now
+extend to cover the 3 x 3 rooms surrounding it's spawn point.
+
+All time, weather, season and room descriptions have been copied from
+Reikland (and cleaned up).
+
+The Empire has no core daemons that are required to run for the area
+to work. The rooms are completely stand-alone and will even clean
+themselves up if not in use. To see what rooms are currently loaded,
+you can try the command "imap <island>" (all loaded rooms have
+colour).
+
+Oh! And obviously there is anarachy in the entire region now.

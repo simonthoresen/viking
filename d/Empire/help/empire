@@ -1,0 +1,22 @@
+NAME
+
+    Empire
+
+DESCRIPTION
+
+    The Empire consists of an extensive library of tools and frameworks, as 
+    well as several map-based areas called "islands". The tools can be found
+    in /d/Empire/daemons/, /d/Empire/obj/ and /d/Empire/std/. The islands are
+    located in separate directories in /d/Empire/islands/.
+
+    For the reusable inheritable objects, real objects and daemons, please see
+    the /d/Empire/empire.h file and go from there.
+
+    Although the layout of an island would suggest that the Empire uses some
+    kind of virtual rooms, it does not. Instead it uses a command called 
+    "igen" that can be found in /d/Empire/com/w/ to create separate room-files
+    for every room in every island in /d/Empire/var/islands/. 
+
+SEE ALSO
+
+    igen

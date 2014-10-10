@@ -1,0 +1,85 @@
+This event has been designed to be the most epic encounter on all of Viking. It
+does not need to be triggered, you can always just walk up to the dragon. Onyxia
+is not aggressive (she is asleep until attacked). Once killed, the dragon does
+not respawn for 1 month.
+
+The dragon goes through 3 phases; 1) Onyxia is on the ground, 2) Onyxia is in
+the air, and 3) Onyxia is back on the ground.
+
+Each room in the cave tracks the single last direction moved of a non-dragon
+living, and Onyxia uses this to decide on a wander-direction if noone is in the
+same room as the dragon (the head in phase 1 and 3, and the dragon itself in
+phase 2). This means that a tank can actually "pull" the dragon. 
+
+The dragon also has a notion of which direction it is facing, which is the same
+direction as its previous move. For ball-spells and knock-backs it is important
+to understand this mechanic.
+
+
+PHASE 1
+
+Onyxia consists of 3 parts, that may (and should) stretch across multiple
+rooms. The head has a heavy regular melee attack, and may 1) throw the attacker
+out of the room in the direction facing, 2) a heavy bite attack, and 3) cast an
+elemental ball that does area damage and flies the direction the dragon is
+facing until it explodes when hitting a wall. The body has a medium regular
+attack that hits a random target and may cause busy-next-round. Every round the
+body also does damage to everyone present. The tail has a heavy regular attack
+that hits a random target and either causes heavy bleed (damage over time), or
+throws the player out of the room. Every round the tail also does damage to
+everyone present.
+
+When fighting Onyxia, someone needs to grab the head and pulls it away from the
+others. The remainder of the group then goes on to attack the body. Every player
+needs to be alert of a move, because both the head and the tail do VERY HEAVY
+damage. Because the head does knock-back, the dragon will move about and the
+people attacking the body MUST move accordingly.
+
+
+PHASE 2
+
+Phase 1 will continue until Onyxia's health reaches 65%. At that point she will
+lift off, and enter Phase 2. Note that while she is flying, melee cannot hit
+Onyxia, even if they stand underneath her.
+
+In addition to a regular elemental melee attack, Onyxia may 1) perform a
+deepbreath, 2) cast an elemental ball similar to phase 1, 3) summon one whelp
+per attacker, or 4) summon one guard on a random attacker. The deep-breath is a
+special attack that spreads from Onyxia's position out to all adjacent rooms,
+and then adjacent to those, etc. until some distance is covered. The deep-breath
+fire does HORRIBLE fire damage that WILL kill whoever does not move.
+
+
+PHASE 3
+
+This phase begins when Onyxia's health reaches 40%. She will land, regain her
+abilities from Phase 1, and learn a couple extra. She may now also do 1) call
+run_away() in every attacker, 2) frenzy and do 3-5 attacks in one round, and 3)
+summon a lava eruption in every attacker's room. The eruption causes fire damage
+every round for a few rounds, and simply needs to be avoided by moving the
+dragon.
+
+
+REWARDS
+
+The rewards are obviously outrageous, but I am hoping that QC will approve it
+because this is an event that requires just about every active player on the MUD
+planning and cooperating. This event is possibly not doable, but it ought to
+create a great fellowship among those that try. 
+
+For the basic stats of the dragon see the top part of the std/dragon_base.c
+file. The intention here is to decide on max-hp for the dragon based on expected
+damage-output of a sufficiently geared player, some set number of players, and
+an target fight time. I believe the number right now is 450k hp.
+
+To beat the dragon, it probably requires just about a full uptime gearing up and
+collecting heals. Being completely overpowered for the remainder part of the
+uptime (at most once a month) should hopefully pass as acceptable.
+
+* A chest filled with 10 million coins worth of random jewels.
+* Everyone present at kill gets a no-drop trinket that gives +6 all stats and 
+  22 hp and sp regen in __peace_beat.
+* Everyone present at kill gets 5 million experience points.
+* One auto-loading 22 slot, 1 weight bag.
+* One auto-loading dragon's egg that does absolutely nothing (this might come in
+  handy later as a cool easter egg (pun intended)).

@@ -1,0 +1,23 @@
+If you ever need to change anything in this guild due to balance reasons or
+bugs, here is what you need to know;
+
+- If some skill cost needs to be tuned, or some quest limit changed, edit the
+  artichoke.h file and run com/w/artreload to reload all of the guild.
+
+- In slivers/ there are hand-coded slivers that can be tweaked in-place. Once
+  you have freshed the modified sliver, the sliver daemon will discover and
+  reload it by itself.
+
+- In slivers/x/ there are generated slivers that can NOT be changed directly. If
+  you need to tweak these, you must edit the sliver generator
+  obj/slivergen. Once you have saved your changes to that file, run
+  com/w/slivergen to rebuild and reload all the slivers.
+
+- The std/ directory contains mostly framework code. If there is a framework
+  bug (like player object not being set, or some sliver method not getting
+  called), this is where you need to look.
+
+- The slivers/ directory contains all the modules that make up an artifact,
+  including all the gameplay mechanics. If combat integration is faulty, check
+  slivers/combat, if movement notification is broken, check
+  slivers/notify_move, etc.

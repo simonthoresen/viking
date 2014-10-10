@@ -1,0 +1,164 @@
+2014-10-08 Khaine
+- Added EMP_D_FILTER that extends D_FILTER, and provides does_inherit() and
+  does_not_inherit().
+
+2014-10-03 Khaine
+- Added EMP_I_CALL_OUT, which adds call_out_unique() method to all base
+  classes. This call will first remove any existing call_outs to the
+  same method.
+- Added EMP_I_MONSTER_MESSAGE that provides set_destroy_msg().
+
+2014-10-02 Khaine
+- Added EMP_I_ROOM_CRUMB, and removed the duplicate functionality in
+  island/dragon/std/room and island/blackrock/std/room_crumb
+
+2014-10-01 Khaine
+- Added EMP_I_TOKEN as a generalized blackrock coin. Let the blackrock coin
+  inherit from this.
+- Added EMP_C_TOKEN as a raid-reward token to be used to buy OP equipment in
+  Altdorf some time in the future.
+
+2014-09-27 Khaine
+- Completed the implementation of islands/fort, and called for other wizards
+  to assist with implementing the wings.
+
+2014-09-08 Khaine
+- Added EMP_D_LIST for rendering lists with variable width.
+- Modified std/room_desc to use custom string appender for building long desc.
+
+2014-08-21 Khaine
+- Added a heart_beat hook to all livings that hold the empire badge, and use
+  that hook to call living_heart_beat() in empire rooms. This reduces the cpu
+  cost of environmental effects across the empire.
+- Removed heart_beat from map_a, map_d, map_l and map_t. Environmental effects
+  implemented by way of the new living_heart_beat() call from badge.
+- Changed EMP_C_LIMB to inherit C_CORPSE to remove heart_beat() from all limbs,
+  as well as use more of mudlib.
+- Changed EMP_C_LIMBLOSS, EMP_C_REINS, EMP_C_STUN and EMP_C_WOUND to use a
+  __heart_beat hook instead of an explicit heart beat.
+
+2014-08-20 Khaine
+- Created artifact guild area island.
+- Created EMP_I_LOGD, and made EMP_D_LOG inherit that.
+
+2014-07-26 Khaine
+- Changed islands/altdorf/events/executioner to inherit from EMP_I_MONSTER
+- Changed islands/altdorf/events/thief to inherit from EMP_I_MONSTER
+- Changed islands/altdorf/events/wiseman to inherit from EMP_I_MONSTER
+- Changed islands/altdorf/events/wizard to inherit from EMP_I_MONSTER
+- Changed islands/chaos/events/lord_angron to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/akol to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/barbarian to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/barbarian/sword to divide anger by 5 instead
+  of 4, and removed 25% chance of breaking rage
+- Changed islands/reikland/events/dirach to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/ent to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/huldra to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/imhotep to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/kaleb to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/kalis to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/kashryn to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/krugan to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/meargh to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/random to inherit from EMP_I_MONSTER
+- Changed islands/reikland/events/rider to inherit from EMP_I_MONSTER
+- Fixed a bug in islands/reikland/events/ureins that prevented clean up of
+  hooks when dismounting
+- Fixed a bug in islands/blackrock/obj/cast_raise_dead which was preventing
+  summoned skeletons from being harder than level 1
+
+2014-07-25 Khaine
+- Changed islands/altdorf/std/citizen to inherit from EMP_I_MONSTER
+- Changed islands/blackrock/std/critter to inherit from EMP_I_MONSTER
+- Fixed a bug in blackrock critters that would cause curses not to inflict
+  damage.
+- Changed islands/chaos/std/critter to inherit from EMP_I_MONSTER
+- Changed islands/dragon/obj/guard to inherit from EMP_I_MONSTER
+- Changed islands/dragon/obj/whelp to inherit from EMP_I_MONSTER
+- Changed islands/dragon/std/dragon_base to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/dranosh_saurfang to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/fenrir_wolf to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/jormungand_serpent to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/jotunn_giant to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/rust_monster to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/viscidus_slime to inherit from EMP_I_MONSTER
+- Changed islands/reikland/std/critter to inherit from EMP_I_MONSTER
+
+2014-07-24 Khaine
+- Changed islands/matouci/events/cerberus_hound to inherit from EMP_I_MONSTER
+- Changed islands/matouci/events/crusader_trial to inherit from EMP_I_MONSTER
+
+2014-06-28 Khaine
+- Changed Akol's helmet to only block physical damage.
+- Changed Imhotep reward til all stats +3, and changed its difficulty;
+  3x hp, 2x str, spell chance +10%, spell dmg +20%
+
+  Also, Imhotep may now summon 100 demons up from 20, and each demon has
+  2x hp, 1.5x str, spell chance +10%
+
+2014-06-27 Khaine
+- Added dragonhide as a replacement for the Onyxia backpack. This is an
+  auto-loading item that can be crafted into a non-autoloading super bag.
+
+2014-06-14 Khaine
+- Increased damage of all Onyxia spells by 20% (mostly from 50 -> 60).
+- Increased the number of Onyxia whelp spawns from 1 to 2.
+- Reduced cooldown of Onyxia deep breath spell.
+
+2014-06-12 Khaine
+- Added last_crit_hityou and last_crit_youhit features to EMP_D_CRITICAL to
+  prevent damage_done() from inflicting multiple hits either by or on the
+  player within a single round.
+- Increased chance to call D_CRITICAL from 25% to 100% in Viscidus' ring.
+
+2014-06-12 Khaine
+- Changed scabbard to be NO_DROP, and autoloading even when not worn.
+
+2013-03-29 Azatoth
+- Azatoth added basic IDs to weapond, and added magic property to enchanted
+  items. Enchanted items will now also have a basic set_info for identify
+  spells.
+
+2012-07-06 Azatoth
+- Viscidious ring with reduced crit chance. We had mages doing 500k xp in 2
+  minutes with this ring. Rember that there are areas WITH THEIR OWN critical
+  systems, when you put another on top... it goes bad _very_ quickly.
+- Imhotep with reduced stat effects. The new gear is so good, and does no longer
+  require a quest to get that there is no reason one should also get insane stat
+  boost for killing. Some players were soloing this mob without much
+  difficulty. Imhotep's HP reduced.
+- Serpent spirit reduced regen from 5sp to 2SP per round. 5 SP non-slot is
+  simply way too much. Serpent was reduced in hitpoints from this also.
+- Kaleb's sword made weight 6. It was much too good to be a leftie.
+- Kaleb's ring had resistances cut to 25%. Don't give out 100% resistances so
+  readily! A game must be exciting, knowing beforehand you have all damage of a
+  certain type reduced by 1/3...  when damage is usually well below your max
+  hitpoints...  takes away that excitement. At the minimum if you do give 100%
+  resist, it can only to be to _ONE_ type and it must be an item with a backdraw
+  of some sort... making it more of a solution to taking down a mob than
+  something you run around with permanently.
+- Akol sword set to weigth 2
+- Akol helmet set to reduce random(dmg/2). Devotion was possible to get too
+  high, and running around with 40% chance to remove all damage is not
+  passable. Remember that gear and others powers stack!
+- Kalis book changed from hitting query_attackers() to query_attack().  The
+  potential of the weapon becomes to high in multimob areas, especially now that
+  we have so many with endless spawns.
+- Reduced ring and amulet values from liches and mind flayers. Penalized regen
+  powers more.
+- Capped potions in potionshop to 20 per reset. Price reduced to 18k
+- Reduced max dmg on Lord Random a little.
+
+2012-06-21 Azatoth
+- Azatoth capped number of spawns from chaos portal to 25.  Players used portal
+  to gain excessive amounts of XP very easily. This could be rewritten in some
+  other form I guess, but for now a cap is in place.
+
+2013-06.20 Azatoth
+- Azatoth reduced resist from Jormungand amulet and onyxia blood. Yes, they are
+  rare spawns... but these are items for highlevel sessions - so let's keep a
+  reason for stacking up res from other rewards in the game.
+
+2013-06-13 Azatoth
+- Azatoth make kalis spellbook unique, changed potion cost in altdorf to 20k,
+  reduced regeneration from rings and amulets somewhat

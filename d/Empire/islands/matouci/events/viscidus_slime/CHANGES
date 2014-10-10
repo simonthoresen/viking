@@ -1,0 +1,10 @@
+ring.c
+- deducing from /d/Empire/CHANGES (randomness added due to mages) my guess is 
+  that this blows up when doing aoe
+- i updated D_CRITICAL to not allow one player to inflict multiple crits in the
+  same combat round
+- i would like to remove the randomness of calling D_CRITICAL, since the 
+  damage_dealt() method in D_CRITICAL is supposed to be sufficiently balanced
+  so that everyone can call it. there is already a 20% chance there, as well as
+  the new time blocker
+

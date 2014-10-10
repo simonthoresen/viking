@@ -1,0 +1,57 @@
+Damage over time:                       Damage histogram:
+                                        
+ 590 |                              ##     4 |             #                  
+     |                             ###       |             #                  
+     |                            ####       |  #         ####                
+     |                           #####       |  #         ####                
+     |                       #########       |  #         ####                
+     |                ################       |  # ### ### #####     #     #   
+     |            ####################       |  # ### ### #####     #     #   
+     |        ########################       |########### #######   #  #  #  #
+     |   #############################       |########### #######   #  #  #  #
+     |################################       |########### #######   #  #  #  #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              42       0                             590
+
+Hit count over time:                    Hit count histogram:
+                                        
+   4 |              ##          ##        35 |                    ######      
+     |              ##          ##           |                    ######      
+     | ###############################       |                    ######      
+     | ###############################       |                    ######      
+     | ###############################       |                    ######      
+     |################################       |                    ######      
+     |################################       |                    ######      
+     |################################       |                    ######      
+     |################################       |             #############      
+     |################################       |#######      ###################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              42       0                               4
+
+===> Round: 42    Damage: 465   Max: 544  Total: 10005  Average: 232.67
+===> Round: 42    Hits:   1     Max: 4    Total: 122    Average: 2.84
+===> Round: 42    Busy:   0     Max: 2    Total: 3      Average: 0.07
+
+The fenris wolf is a major badass. He does 2x attacks every round, and for
+every hit he causes the target to bleed for an equal amount. This means that
+the damage the player will be taking each turn will gradually build up to
+become insta-kill. The only way to beat this wolf is to use at least 2 people
+that swap tanking while the wounds wear off.
+
+If he does a single hit of 100+ damage he will severe the right hand of the
+player. This has been added because that is what Fenrir is famous for in Norse
+mythology.
+
+The wolf drops 1 of 3 unique items every kill. These are 2 weapons and a cloak.
+When worn together, the player will randomly summon a spirit wolf during combat
+that stays around for 30 seconds to assist.
+
+With 40 str and 40 dex, wielding 1 claw against a default hurtme:
+=> Round:344  Damage:10   Total:10030  Average:29.156977  Max:34
+
+Wielding 2 claws against a default hurtme:
+=> Round:173  Damage:56   Total:9943  Average:57.473988  Max:48
+
+Wielding 2 claws and wearing the fur cloak again a default hurtme:
+=> Round:150  Damage:76   Total:9981  Average:66.540001  Max:46
+ 

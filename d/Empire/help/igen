@@ -1,0 +1,21 @@
+NAME
+
+    igen
+
+DESCRIPTION
+
+    The "igen" command is short for "island generator", and is the command used
+    to generate the room files of an island. This has to be run whenever the 
+    map of an island has changed. The syntax is simply "igen <island>".
+
+    Calling this function will create and execute a task object that takes care
+    of creating all the files. This object will reside in your inventory, and 
+    it can be examined to see its progress. 
+
+    Beware that running this command will destroy and delete all the existing 
+    room files, meaning that any player present on that island will be kicked
+    off to the Larstown church.
+
+SEE ALSO
+
+    blackrock

@@ -1,0 +1,23 @@
+NAME
+
+    EMP_D_COMBAT - utility daemon for combat features
+
+DESCRIPTION
+
+    The combat daemon is a collection of combat-related helper functions.
+
+    int hit_player(object hitter, object victim, int dmg, 
+                   string dtype[, string weapon]) 
+
+    int throw_player(object ply, int force[, string dir]):
+
+    int stun_player(object victim, int dur[, object hitter]):
+
+    int wound_player(object hitter, object victim, int dmg):
+
+    void apply_liquid(object who, object liquid[, int clone_liquid]):
+
+    int spray_liquid(object env, object liquid[, mixed exclude]):
+
+    int spray_blood(object env, int val[, mixed exclude]):
+

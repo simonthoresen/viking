@@ -1,0 +1,57 @@
+ 333 |                                                                   ## 
+     |                                                                   ## 
+     |                                                           ##      ## 
+     |                                                           ##      ###
+     |                                                   ## ##   ##      ###
+     |                                            ##     ## ##   ##   ######
+     |                                 ##         #####  ## ##   ## ########
+     |                         ##      ##         #####  ## ##   ## ########
+     |     ##                  ##      ##         #####  ## ###  ###########
+     |     ##             ##   ##     ###         #####  ###### ############
+     |  ## ##  ## ##      ## ####     ###      ## ##### ####################
+     |  ## ##  ## ##      ## ####    #### ##   ## ##### ####################
+     |  ## ############   ## ####    #######   ######## ####################
+     | ### #############  ## ######  #######   #############################
+     | #################  ## ######  ######## ##############################
+     | #################  ## ######  #######################################
+     | ############################# #######################################
+     | #####################################################################
+     | #####################################################################
+     | #####################################################################
+   0 +---------------------------------------------------------------------->
+     0                                                                    54
+
+===> Round: 54    Damage: 856   Max: 558  Total: 10006  Average: 181.93
+===> Round: 54    Busy:   1     Max: 5    Total: 13     Average: 0.24
+
+This is the worst event Matouci has to offer. It is intended to be a rare event
+that really should not be beatable unless 4-5 people team up and expect to die
+quite a few times. 
+
+NOTE: This event can only trigger once per week.
+
+The serpent has 2 parts; a head and its tail. The tail will snake outwards and
+multiply until it covers the entire path of Matouci. The head will move around
+at random along the path. The whole serpent shares hp (MASSIVE amounts of it)
+by having the tail parts proxy hit_player to the head object.
+
+When fighting the body there is a chance of being crushed as it trashes
+around. It does damage to everyone in the room with it, every round. It is
+meant to be a nuance when fighting the head, not a very hard monster to
+survive. The head is the main opponent, however, and it takes 20x the damage
+from each hit.
+
+It uses the following mechanics:
+* dying spawns multiple parts that reform, like viscidus_slime
+* it consists of multiple parts linked together, like cerbrous_hound
+* it uses the critical system, like rust_monster
+* it does progressive bleed through bite, like fenrir_wolf
+* head hits may throw the player around, like jotunn_giant
+
+Loot is:
+* soulbound +11 str ring, +11 dex ring, +11 int ring, +11 con ring.
+* +75 resist_all amulet
+* auto_load item that gives +2 all stats for 24 hours of combat
+
+Against a default hurtme:
+Round:70  Damage:217   Total:9533  Average:136.185715  Max:116

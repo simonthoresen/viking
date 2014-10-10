@@ -1,0 +1,27 @@
+NAME
+
+    wc - the weapon class
+
+DESCRIPTION
+
+    For a single hit, the class of a weapon is:
+
+    ((weapon_class() + weapon_hit()) * 4 + str() * 2 + dex() * 2) / 8
+
+    That is, the average strength and dexterity of the wielder contributes just
+    as much as the set class and the hit-function's return value. Damage is:
+
+    random(wc) - random(ac)
+
+    This means that the weapon-class of a weapon intended for a level 29, with
+    a target average damage 'x' (ignoring armour), must have a (weapon_class()
+    + weapon_hit()) 'wc' equal to:
+
+    dmg = random((wc * 4 + 29 * 2 + 29 * 2) / 8)
+    dmg = random((wc * 4 + 29 * 4) / 8)
+    dmg = random(wc / 2 + 29 / 2)
+    dmg = wc / 4 + 29 / 4
+
+    wc  = dmg * 4 - 29
+
+    To achieve an average damage of 15, a weapon would need 31 wc.

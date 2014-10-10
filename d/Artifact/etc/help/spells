@@ -1,0 +1,11 @@
+Spells are slivers that you cast on yourself while playing. Use the command
+"spells" to see a list of known spells, and the command "cast" to cast one.
+
+You can find the list of known and trainable spells in the spell-room of the
+guild area. Like other slivers, spells have prerequisites -- until those
+prerequisites are met, you will not even see such spells as trainable.
+
+The number of spell slots available to you depends on the shape of your
+weapon. Do "help shapes" to see this distribution.
+
+Spells are temporary, they expire once their duration runs out.

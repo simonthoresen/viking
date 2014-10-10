@@ -1,0 +1,14 @@
+This is the realm of chaos. It is accessible through a portal (obj/portal.c) at
+wherever that portal exists. Any event in another island may simply spawn an
+instance of that object to create an invasion into that island. This submission
+includes an invasion event in altdorf (../altdorf/events/chaos_portal/event.c).
+
+At any time there will always be 5 chaos warriors on this island. If one is
+killed, the island will spawn another. All warriors walk towards the portal and
+stay there. This is to make it tricky once people enter the portal. If the
+portal is closed on the invaded island, the only way to get off is by throwing
+one self off the island (into the void). That will move the player back to
+altdorf through a funny falling sequence.
+
+There is also a single event, which is a port of Lord Angron from Reikland. His
+item set is a bit changed, but mostly to clean up code and mechanics.

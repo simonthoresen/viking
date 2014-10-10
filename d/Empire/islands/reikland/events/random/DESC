@@ -1,0 +1,39 @@
+Damage over time:                       Damage histogram:
+                                        
+ 282 |           ##                       41 |##                              
+     |           ##                          |##                              
+     |  #        ##                  #       |##                              
+     |  #   # #  ##           #      #       |##                              
+     |  #  ## #  ##           #      #       |##                              
+     |  #  ## # ###   ##      ## #   #       |##     #                        
+     |  # #########  ####     ####  ##       |### ## #                        
+     |############# ##### ############       |###### ## # #                   
+     |################################       |######### # #                   
+     |################################       |#################   ####       #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             211       0                             282
+
+Hit count over time:                    Hit count histogram:
+                                        
+   8 |           ##                       86 |    ####                        
+     |  #     #  ##           #              |    #######                     
+     |  #  ## #  ##           #              |    #######                     
+     |  #  ## #  ##  #        #              |    #######                     
+     |  #  ## #  ##  #        #              |    #######                     
+     |  #  ## # ###  ###      ##    ##       |    ###########                 
+     |  # #########  #### #  #####  ##       |    ###########                 
+     |################################       |    ###########                 
+     |################################       |    ###########                 
+     |################################       |################################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             211       0                               8
+
+===> Round: 211   Damage: 281   Max: 163  Total: 10021  Average: 47.27
+===> Round: 211   Hits:   2     Max: 8    Total: 407    Average: 1.92
+===> Round: 211   Busy:   0     Max: 4    Total: 35     Average: 0.17
+
+
+This is a slightly modified port of the original Reikland event. The boots are
+now unique, and they add +3 int. The cloak has changed to have a 1% chance every
+heart beat of doing something random to the wearer. Some of the changes are
+quite good, but there are also a few really bad ones.

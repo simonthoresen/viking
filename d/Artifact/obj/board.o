@@ -1,0 +1,15 @@
+short_desc "a bulletin board"
+long_desc "board\n"
+ids ([3|"a bulletin board":1,"board":1,"bulletin board":1,])
+name "board"
+m_property ([1|"board":1,])
+triggers ([13|"catchup":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"crosspost":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"delete":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"edit":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"followup":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"join":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"list":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"mread":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"nuke":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"read":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"stat":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"threads":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),"write":({4|"#->#",0,"/d/Artifact/obj/board#382","command",}),])
+bits ""
+default_config ([2|"bits":"0","color":([9|"author":"%^GREEN%^","date":"%^MAGENTA%^","eoc":"%^END%^","headline":"%^INVERSE%^","level":"%^BLUE%^","mark":"%^BOLD%^","nr":"%^YELLOW%^","subject":"%^CYAN%^","unread":"%^RED%^",]),])
+note_info ({8|({5|142192,({5|142191,"arrty",24,1411752166,"Bugs.",}),({5|142194,"khaine",45,1411798813,"Re: Bugs.",}),({5|142200,"zaxxonblade",5,1411840728,"Suspend",}),({5|142201,"khaine",45,1411847451,"Re: Suspend",}),}),({2|142197,({5|142196,"arrty",24,1411816339,"Healing",}),}),({2|142200,({5|142199,"zaxxonblade",5,1411836481,"Typos",}),}),({2|142203,({5|142202,"arrty",24,1411866124,"Quests",}),}),({2|142204,({5|142203,"arrty",24,1411866466,"Equipment idea.",}),}),({2|142218,({5|142217,"arrty",25,1412496659,"Collection of bug",}),}),({2|142219,({5|142218,"arrty",25,1412557054,"Party bug",}),}),({6|142246,({5|142245,"arrty",24,1412902222,"Big monsters",}),({5|142246,"arrty",24,1412902249,"Re: Big monsters",}),({5|142247,"arrty",24,1412912764,"Re: Arrty",}),({5|142248,"arrty",24,1412913855,"Re: Arrty",}),({5|142249,"arrty",24,1412914475,"Re: Arrty",}),}),})
+number_of_threads 8
+number_of_notes 20
+board_id 261
+last_note_id 142249
+short_id "???"
+max_notes_pr_thread 80

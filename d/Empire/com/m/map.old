@@ -1,0 +1,33 @@
+#include "/d/Empire/empire.h"
+
+inherit base CMD_MODULE;
+inherit util EMP_I_UTIL;
+
+static void create() {
+    base::create();
+    util::create();
+}
+
+public int main(string arg) {
+    object ply, env;
+    string *map;
+    if (!objectp(ply = this_player()) ||
+        !objectp(env = environment(ply)))
+    {
+	return 0;
+    }
+    if ((string)ply->query_property("TERM") == "ansi") {
+        map = env->query_ansi_map();
+    } else {
+        map = env->query_dumb_map();
+    }
+    if (!arrayp(map)) {
+        return notify_fail("This is unmapped land.");
+    }
+    tell_ansi(ply, implode(map, "\n"));
+    return 1;
+}
+
+string short_help() {
+    return "Prints a map of the area your are in.";
+}

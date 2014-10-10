@@ -1,0 +1,28 @@
+This change introduces a daemon that tracks the average amount of exp of mobs
+across the mud, and provides a method to bump the exp of a new mob so that its
+exp matches the appropriate average. This will be enabled by adding a call to
+the daemon in the base monster class used in Empire.
+
+This change was motivated by all the players complaining that there is too
+little exp to earn in Empire.
+
+
+./daemons/expd.c
+- contains a mapping from mob level to average exp in tracked mobs
+- a mob is tracked by calling track_exp(mob)
+- the empire badge calls track_exp() for every killed mob
+- the poll_objects() method will bootstrap the exp data by scanning objects()
+- the method maybe_add_exp(mob) will add sufficient exp to the given mob so
+  that it has the same amount of exp as the tracked average for its level
+
+- the data structure is ([ level : ([ exp_bucket : count ]) ])
+- "level" is level of mob, "exp_bucket" is actual exp of mob divided by the
+  exp assigned by the mudlib to a mob of the same level. this means that a
+  standard monster will count up the "100" bucket, but a mob with 50%
+  additional exp will be in the "150" bucket.
+- you may call query_avgs() to see an aggregated view over level.
+
+./obj/badge.c
+- added a call in on_kill to expd.c to track exp of killed mobs
+- this makes sure we only track mobs that are commonly killed, and gets us
+  around features like that of Reikland where unkilled mobs gets an exp boost

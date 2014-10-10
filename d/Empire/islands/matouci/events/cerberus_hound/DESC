@@ -1,0 +1,64 @@
+Damage over time:                       Damage histogram:
+                                        
+ 309 | ##                                  7 |             #                  
+     | ##       #                 ####       |             ##         #       
+     | ###     ## ## ### ##       ####       |             ##         #       
+     | ####### ## ## ### ## ##  ######       |             ##         #       
+     | ########## ## ### ## ##  ######       |             ###        #       
+     |################################       |             ### #   #  #       
+     |################################       |             ### #   #  #       
+     |################################       |          #  ### # ###  ####    
+     |################################       |#       ############## ######  #
+     |################################       |#       ############## ######  #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              51       0                             309
+
+Hit count over time:                    Hit count histogram:
+                                        
+   9 | ##                                 18 |                       ###      
+     |####### #   ## ###     ##    ##        |                    ######      
+     |########### ## ###### ### ######       |                    #########   
+     |################################       |                    #########   
+     |################################       |                    #########   
+     |################################       |                    #########   
+     |################################       |                    #########   
+     |################################       |                    #########   
+     |################################       |                ################
+     |################################       |####            ################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              51       0                               9
+
+===> Round: 51    Damage: 1073  Max: 795  Total: 10006  Average: 192.42
+===> Round: 51    Hits:   5     Max: 9    Total: 353    Average: 6.79
+===> Round: 51    Busy:   0     Max: 2    Total: 9      Average: 0.17
+
+This is a multi-headed beast that demonstrates the multi-part mob logic needed
+for serpent. It is implemented as 5 separate objects, 1 body (hound.c), 1 tail,
+and 3 heads. These are linked together by the singular body. Killing the body
+will kill the beast, but killing the heads or tail will only make it so it
+deals less damage.
+
+* The tail does blunt damage and may throw the player it is fighting out of the
+  room, similar to the tree-trunk of the jotunn giant.
+
+* The left head does bite damage and has a 25% chance of breating Fire on
+  everyone in the room.
+
+* The middle head does bite damage and has a 25% chance of a special Bite
+  attack that also causes the target to start to bleed.
+
+* The right head does bite damage and has a 25% chance of an electricity attack
+  that also stuns the player for 1 - 2 rounds.
+
+* The body does 2 claw attacks every round.
+
+I assume that the only way to beat this monster is to have multiple tanks that
+soak damage from one head each. One should also focus fire each part, because
+they do not have too much hp. Once all but the body is dead, this is just tank
+and spank.
+
+The loot is a fantastic shield that has 4 ac, +2 con, as well as +25 resistance
+to fire and electricity. Each fight-beat, the shield has a 25% chance of doing
+a special attack that mirrors the hounds abilities. Finally, a __hit_player
+hook on the wearer reflects all ac_mod damage back on the opponent.
+

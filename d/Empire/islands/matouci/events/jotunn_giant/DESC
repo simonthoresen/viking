@@ -1,0 +1,64 @@
+Damage over time:                       Damage histogram:
+                                        
+ 203 |                          ###       19 |     #                          
+     |                          ###          |     #    #                     
+     |               #    #     #### #       |    ###  ##                     
+     |              ##    # #   #### #       |   ##### ##                     
+     |     ##  #    ### # # ##  #### #       |   ########                     
+     |###  ##  # #  ### ####### #### #       |   ########                     
+     |### #### ### ###################       |  #########  # #                
+     |################################       |  #########  # ##               
+     |################################       |  ########## #####   ####      #
+     |################################       |  ################# #####      #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             161       0                             203
+
+Hit count over time:                    Hit count histogram:
+                                        
+  11 |               #    #      ### #   107 |      ##                        
+     |               #    # #   #### #       |      ##                        
+     |               #    # #   #### #       |      ##                        
+     |               ##   # #   #### #       |      ##                        
+     |               ##   # #   #### #       |      ##                        
+     |               ##   # #   #### #       |      ##                        
+     |               ## #####   #### #       |      #####                     
+     |###  ##### # #### ############ #       |      #####                     
+     |################################       |      #####                     
+     |################################       |   #############   #############
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             161       0                              11
+
+===> Round: 161   Damage: 515   Max: 462  Total: 10016  Average: 61.83
+===> Round: 161   Hits:   3     Max: 11   Total: 441    Average: 2.72
+===> Round: 161   Busy:   0     Max: 2    Total: 9      Average: 0.06
+
+This event spawns a series of waves of pigs that come running out of the forest
+to attack the player. If the player hangs around (and survives) through all
+waves, a giant is spawned. This giant is a rip-off from the Reikland swamp troll
+(which I made, so noone will hate me for it). The giant is a difficult mob that
+wields a burning tree for a weapon. The weapon is very good, but will
+continually burn out becoming less and less good. He also carries a unique +4
+ac, +4 str ring.
+
+Every round the tree-trunk inflicts 10 - 20 fire damage on the opponent. If
+wielder->test_weight(query_weight()) evaluates to false, no special attack will
+occur. With 29 strength that is the case:
+
+29 strength:
+===> Round: 404   Damage: 22    Max: 23   Total: 10038  Average: 24.79
+===> Round: 404   Hits:   2     Max: 2    Total: 783    Average: 1.93
+===> Round: 404   Busy:   0     Max: 0    Total: 0      Average: 0.00
+
+If the above test evaluates to true, the wc of the trunk doubles, and there is a
+10% chance to inflict a special attack.
+
+40 strength:
+===> Round: 266   Damage: 16    Max: 45   Total: 10026  Average: 37.55
+===> Round: 266   Hits:   1     Max: 11   Total: 612    Average: 2.29
+===> Round: 266   Busy:   0     Max: 1    Total: 3      Average: 0.01
+
+In 10 hours the trunk will burn up, gradually becoming lighter and lighter,
+having less and less wc, but also having a better chance of inflicting a special
+attack. There is probably a sweet-spot in the lifetime of a trunk where it is
+light enough to carry and good enough to use.
+

@@ -1,0 +1,1196 @@
+-------------------------------------------------------------------------------
+Level  0  Abjuration                    Initiate of Abjuration
+          Acid Aptitude                 Initiate of Acid
+          Animal                        
+          Base Slots                    
+          Blunt Aptitude                Initiate of the Hammer
+          Chop Aptitude                 Initiate of the Axe
+          Cloth                         
+          Cold                          
+          Cold Aptitude                 Initiate of Cryomancy
+          Combat                        
+          Combat Exp                    
+          Conjuration                   Initiate of Conjuration
+          Divination                    Initiate of Divination
+          Electricity Aptitude          Initiate of Electricity
+          Enchantment                   Initiate of Enchantment
+          Evocation                     
+          Fire Aptitude                 Initiate of Pyromancy
+          Fur                           
+          Gemstone                      
+          Illusionism                   Initiate of Illisionism
+          Leather                       
+          Linkdead                      
+          Magic Aptitude                Initiate of Magic
+          Necromancy                    Initiate of Necromancy
+          Notify Move                   
+          Notify Wield                  
+          Party                         
+          Pierce Aptitude               Initiate of the Spear
+          Quest Tracker                 
+          Restoration                   
+          Score Tracker                 
+          Second Life                   Initiate of Second Life
+          Second Life Atom              
+          Second Life Fx                
+          Show Scars                    
+          Slash Aptitude                Initiate of the Sword
+          Symbol                        
+          Transmutation                 Initiate of Alchemy
+          Warm                          
+          Wear Out                      
+          Wood                          
+Level  1  Machete                       
+          Acid Aura I                   Acid Aptitude 25
+          Acid Protection I             Abjuration 5, Acid Aptitude 10
+          All Thumbs I                  Transmutation 20
+          Bad Health I                  Transmutation 20
+          Bite Aura I                   Bite Aptitude 25
+          Bite Protection I             Abjuration 5, Bite Aptitude 10
+          Blue                          Illusionism 25
+          Blunt Edge I                  Blunt Aptitude 25
+          Blunt Protection I            Abjuration 5, Blunt Aptitude 10
+          Chop Edge I                   Chop Aptitude 25
+          Chop Protection I             Abjuration 5, Chop Aptitude 10
+          Claw Aura I                   Claw Aptitude 25
+          Claw Protection I             Abjuration 5, Claw Aptitude 10
+          Cold Aura I                   Cold Aptitude 25
+          Cold Protection I             Abjuration 5, Cold Aptitude 10
+          Constitution I                Transmutation 20
+          Cumbersome I                  Transmutation 10, Con 1
+          Cyan                          Illusionism 25
+          Dexterity I                   Transmutation 20
+          Drain Aura I                  Drain Aptitude 25
+          Drain Protection I            Abjuration 5, Drain Aptitude 10
+          Electricity Aura I            Electricity Aptitude 25
+          Electricity Protection I      Abjuration 5, Electricity Aptitude 10
+          Fire Aura I                   Fire Aptitude 25
+          Fire Protection I             Abjuration 5, Fire Aptitude 10
+          Glyph Of Armour I             
+          Glyph Of Constitution I       
+          Glyph Of Damage I             
+          Glyph Of Dexterity I          
+          Glyph Of Elemental Resistance I
+          Glyph Of Featherweight I      
+          Glyph Of Intelligence I       
+          Glyph Of Light I              
+          Glyph Of Physical Resistance I
+          Glyph Of Speed I              
+          Glyph Of Strength I           
+          Glyph Of Two Weapon I         
+          Green                         Illusionism 25
+          Idiocy I                      Transmutation 20
+          Impact Aura I                 Impact Aptitude 25
+          Impact Protection I           Abjuration 5, Impact Aptitude 10
+          Intelligence I                Transmutation 20
+          Iron                          
+          Magenta                       Illusionism 25
+          Magic Aura I                  Magic Aptitude 25
+          Magic Protection I            Abjuration 5, Magic Aptitude 10
+          Pierce Edge I                 Pierce Aptitude 25
+          Pierce Protection I           Abjuration 5, Pierce Aptitude 10
+          Rake I                        Claw Aptitude 20
+          Red                           Illusionism 25
+          Slash Edge I                  Slash Aptitude 25
+          Slash Protection I            Abjuration 5, Slash Aptitude 10
+          Strength I                    Transmutation 20
+          Weakness I                    Transmutation 20
+          Yellow                        Illusionism 25
+Level  2  Spiked Club                   
+Level  3  Tomahawk                      
+          Glyph Of Acid I               
+          Glyph Of Bite I               
+          Glyph Of Claw I               
+          Glyph Of Cold I               
+          Glyph Of Drain I              
+          Glyph Of Electricity I        
+          Glyph Of Fire I               
+          Glyph Of Magic I              
+          Glyph Of The Axe I            
+          Glyph Of The Force I          
+          Glyph Of The Hammer I         
+          Glyph Of The Spear I          
+          Glyph Of The Sword I          
+          Heal I                        Restoration 5
+Level  4  Bastard Sword                 
+          Flash Heal I                  Restoration 5
+Level  5  Maul                          
+          Acid Ball I                   Acid Aptitude 5, Evocation 5
+          Acid Bolt I                   Acid Aptitude 5, Evocation 5
+          Axe Ball I                    Chop Aptitude 5, Evocation 5
+          Axe Bolt I                    Chop Aptitude 5, Evocation 5
+          Bite Ball I                   Bite Aptitude 5, Evocation 5
+          Bite Bolt I                   Bite Aptitude 5, Evocation 5
+          Bronze                        
+          Claw Ball I                   Claw Aptitude 5, Evocation 5
+          Claw Bolt I                   Claw Aptitude 5, Evocation 5
+          Cold Ball I                   Cold Aptitude 5, Evocation 5
+          Cold Bolt I                   Cold Aptitude 5, Evocation 5
+          Cumbersome II                 Transmutation 20, Con 10
+          Damage I                      Transmutation 20
+          Drain Ball I                  Drain Aptitude 5, Evocation 5
+          Drain Bolt I                  Drain Aptitude 5, Evocation 5
+          Drain Mind I                  Necromancy 10
+          Electricity Ball I            Electricity Aptitude 5, Evocation 5
+          Electricity Bolt I            Electricity Aptitude 5, Evocation 5
+          Fire Ball I                   Evocation 5, Fire Aptitude 5
+          Fire Bolt I                   Evocation 5, Fire Aptitude 5
+          Force Ball I                  Evocation 5, Impact Aptitude 5
+          Force Bolt I                  Evocation 5, Impact Aptitude 5
+          Glyph Of Armour II            
+          Glyph Of Damage II            
+          Glyph Of Featherweight II     
+          Glyph Of Light II             
+          Glyph Of Speed II             
+          Hammer Ball I                 Blunt Aptitude 5, Evocation 5
+          Hammer Bolt I                 Blunt Aptitude 5, Evocation 5
+          Identify I                    Divination 20
+          Magic Ball I                  Evocation 5, Magic Aptitude 5
+          Magic Bolt I                  Evocation 5, Magic Aptitude 5
+          Night Vision I                Divination 5
+          Rejuvination I                Restoration 5
+          See Alignment I               Divination 5
+          See Curse I                   Divination 5
+          See Magic I                   Divination 5
+          Siphon Life I                 Necromancy 10
+          Siphon Mind I                 Necromancy 10
+          Spear Ball I                  Evocation 5, Pierce Aptitude 5
+          Spear Bolt I                  Evocation 5, Pierce Aptitude 5
+          Summon Food I                 Conjuration 5
+          Summon Liquor I               Conjuration 5
+          Summon Water I                Conjuration 5
+          Sword Ball I                  Evocation 5, Slash Aptitude 5
+          Sword Bolt I                  Evocation 5, Slash Aptitude 5
+          Unarmed I                     Transmutation 20
+          Weightless I                  Transmutation 25, Str 1
+Level  6  War Scythe                    
+          Sacrifice Corpse I            Necromancy 10
+Level  7  Pike                          
+          Acid Protection II            Abjuration 28, Acid Aptitude 20, 
+                                        Acid Protection I
+          All Thumbs II                 Transmutation 40
+          Bad Health II                 Transmutation 40
+          Bite Protection II            Abjuration 28, Bite Aptitude 20, 
+                                        Bite Protection I
+          Blunt Protection II           Abjuration 28, Blunt Aptitude 20, 
+                                        Blunt Protection I
+          Chop Protection II            Abjuration 28, Chop Aptitude 20, 
+                                        Chop Protection I
+          Claw Protection II            Abjuration 28, Claw Aptitude 20, 
+                                        Claw Protection I
+          Cold Protection II            Abjuration 28, Cold Aptitude 20, 
+                                        Cold Protection I
+          Constitution II               Transmutation 40
+          Dexterity II                  Transmutation 40
+          Drain Protection II           Abjuration 28, Drain Aptitude 20, 
+                                        Drain Protection I
+          Electricity Protection II     Abjuration 28, 
+                                        Electricity Aptitude 20, 
+                                        Electricity Protection I
+          Fire Protection II            Abjuration 28, Fire Aptitude 20, 
+                                        Fire Protection I
+          Idiocy II                     Transmutation 40
+          Impact Protection II          Abjuration 28, Impact Aptitude 20, 
+                                        Impact Protection I
+          Intelligence II               Transmutation 40
+          Magic Protection II           Abjuration 28, Magic Aptitude 20, 
+                                        Magic Protection I
+          Pierce Protection II          Abjuration 28, Pierce Aptitude 20, 
+                                        Pierce Protection I
+          Slash Protection II           Abjuration 28, Slash Aptitude 20, 
+                                        Slash Protection I
+          Strength II                   Transmutation 40
+          Weakness II                   Transmutation 40
+Level  8  Wand                          
+          Glyph Of Acid II              
+          Glyph Of Bite II              
+          Glyph Of Claw II              
+          Glyph Of Cold II              
+          Glyph Of Drain II             
+          Glyph Of Electricity II       
+          Glyph Of Elemental Resistance II
+          Glyph Of Fire II              
+          Glyph Of Magic II             
+          Glyph Of Physical Resistance II
+          Glyph Of The Axe II           
+          Glyph Of The Force II         
+          Glyph Of The Hammer II        
+          Glyph Of The Spear II         
+          Glyph Of The Sword II         
+          Glyph Of Two Weapon II        
+          Heal II                       Heal I, Restoration 28
+          Rake II                       Claw Aptitude 40
+          Summon Food II                Conjuration 25, Summon Food I
+          Summon Liquor II              Conjuration 25, Summon Liquor I
+          Summon Water II               Conjuration 25, Summon Water I
+Level  9  Tanto                         
+          Acid Aura II                  Acid Aptitude 50
+          Bite Aura II                  Bite Aptitude 50
+          Blunt Edge II                 Blunt Aptitude 50
+          Chop Edge II                  Chop Aptitude 50
+          Claw Aura II                  Claw Aptitude 50
+          Cold Aura II                  Cold Aptitude 50
+          Drain Aura II                 Drain Aptitude 50
+          Electricity Aura II           Electricity Aptitude 50
+          Fire Aura II                  Fire Aptitude 50
+          Flash Heal II                 Flash Heal I, Restoration 28
+          Impact Aura II                Impact Aptitude 50
+          Magic Aura II                 Magic Aptitude 50
+          Pierce Edge II                Pierce Aptitude 50
+          Slash Edge II                 Slash Aptitude 50
+          Temporary Armour I            Transmutation 20
+          Temporary Constitution I      Transmutation 20
+          Temporary Damage I            Transmutation 20
+          Temporary Dexterity I         Transmutation 20
+          Temporary Intelligence I      Transmutation 20
+          Temporary Strength I          Transmutation 20
+Level 10  Acid Ball II                  Acid Aptitude 25, Acid Ball I, 
+                                        Evocation 28
+          Acid Bolt II                  Acid Aptitude 25, Acid Bolt I, 
+                                        Evocation 28
+          Acid Resistance I             Acid Aptitude 20
+          Acid Vulnerability I          Acid Aptitude 10
+          Axe Ball II                   Axe Ball I, Chop Aptitude 25, 
+                                        Evocation 28
+          Axe Bolt II                   Axe Bolt I, Chop Aptitude 25, 
+                                        Evocation 28
+          Bite Ball II                  Bite Aptitude 25, Bite Ball I, 
+                                        Evocation 28
+          Bite Bolt II                  Bite Aptitude 25, Bite Bolt I, 
+                                        Evocation 28
+          Bite Resistance I             Bite Aptitude 20
+          Bite Vulnerability I          Bite Aptitude 10
+          Blunt Resistance I            Blunt Aptitude 20
+          Blunt Vulnerability I         Blunt Aptitude 10
+          Chop Resistance I             Chop Aptitude 20
+          Chop Vulnerability I          Chop Aptitude 10
+          Claw Ball II                  Claw Aptitude 25, Claw Ball I, 
+                                        Evocation 28
+          Claw Bolt II                  Claw Aptitude 25, Claw Bolt I, 
+                                        Evocation 28
+          Claw Resistance I             Claw Aptitude 20
+          Claw Vulnerability I          Claw Aptitude 10
+          Cold Ball II                  Cold Aptitude 25, Cold Ball I, 
+                                        Evocation 28
+          Cold Bolt II                  Cold Aptitude 25, Cold Bolt I, 
+                                        Evocation 28
+          Cold Resistance I             Cold Aptitude 20
+          Cold Vulnerability I          Cold Aptitude 10
+          Cumbersome III                Transmutation 30, Con 20
+          Drain Ball II                 Drain Aptitude 25, Drain Ball I, 
+                                        Evocation 28
+          Drain Bolt II                 Drain Aptitude 25, Drain Bolt I, 
+                                        Evocation 28
+          Drain Life I                  Necromancy 10
+          Drain Mind II                 Necromancy 20
+          Drain Resistance I            Drain Aptitude 20
+          Drain Vulnerability I         Drain Aptitude 10
+          Electricity Ball II           Electricity Aptitude 25, 
+                                        Electricity Ball I, Evocation 28
+          Electricity Bolt II           Electricity Aptitude 25, 
+                                        Electricity Bolt I, Evocation 28
+          Electricity Resistance I      Electricity Aptitude 20
+          Electricity Vulnerability I   Electricity Aptitude 10
+          Fire Ball II                  Evocation 28, Fire Aptitude 25, 
+                                        Fire Ball I
+          Fire Bolt II                  Evocation 28, Fire Aptitude 25, 
+                                        Fire Bolt I
+          Fire Resistance I             Fire Aptitude 20
+          Fire Vulnerability I          Fire Aptitude 10
+          Force Ball II                 Evocation 28, Force Ball I, 
+                                        Impact Aptitude 25
+          Force Bolt II                 Evocation 28, Force Bolt I, 
+                                        Impact Aptitude 25
+          Glyph Of Armour III           
+          Glyph Of Constitution II      
+          Glyph Of Damage III           
+          Glyph Of Dexterity II         
+          Glyph Of Featherweight III    
+          Glyph Of Intelligence II      
+          Glyph Of Light III            
+          Glyph Of Speed III            
+          Glyph Of Strength II          
+          Hammer Ball II                Blunt Aptitude 25, Evocation 28, 
+                                        Hammer Ball I
+          Hammer Bolt II                Blunt Aptitude 25, Evocation 28, 
+                                        Hammer Bolt I
+          Impact Resistance I           Impact Aptitude 20
+          Impact Vulnerability I        Impact Aptitude 10
+          L Blue                        Illusionism 75
+          L Cyan                        Illusionism 75
+          L Green                       Illusionism 75
+          L Magenta                     Illusionism 75
+          L Red                         Illusionism 75
+          L Yellow                      Illusionism 75
+          Magic Ball II                 Evocation 28, Magic Aptitude 25, 
+                                        Magic Ball I
+          Magic Bolt II                 Evocation 28, Magic Aptitude 25, 
+                                        Magic Bolt I
+          Magic Resistance I            Magic Aptitude 20
+          Magic Vulnerability I         Magic Aptitude 10
+          Night Vision II               Divination 10, Night Vision I
+          Pierce Resistance I           Pierce Aptitude 20
+          Pierce Vulnerability I        Pierce Aptitude 10
+          Rejuvination II               Rejuvination I, Restoration 28
+          See Alignment II              Divination 10, See Alignment I
+          See Curse II                  Divination 10, See Curse I
+          See Magic II                  Divination 10, See Magic I
+          Silver                        
+          Siphon Life II                Necromancy 32, Siphon Life I
+          Siphon Mind II                Necromancy 32, Siphon Mind I
+          Slash Resistance I            Slash Aptitude 20
+          Slash Vulnerability I         Slash Aptitude 10
+          Spear Ball II                 Evocation 28, Pierce Aptitude 25, 
+                                        Spear Ball I
+          Spear Bolt II                 Evocation 28, Pierce Aptitude 25, 
+                                        Spear Bolt I
+          Sword Ball II                 Evocation 28, Slash Aptitude 25, 
+                                        Sword Ball I
+          Sword Bolt II                 Evocation 28, Slash Aptitude 25, 
+                                        Sword Bolt I
+          Weightless II                 Transmutation 50, Str 10
+Level 11  Gladius                       
+          Damage II                     Transmutation 40
+          Sacrifice Corpse II           Necromancy 17, Sacrifice Corpse I
+          Unarmed II                    Transmutation 40
+Level 12  Flanged Mace                  
+          Identify II                   Divination 40, Identify I
+          Summon Food III               Conjuration 45, Summon Food II
+          Summon Liquor III             Conjuration 45, Summon Liquor II
+          Summon Water III              Conjuration 45, Summon Water II
+Level 13  Dane Axe                      
+          Acid Protection III           Abjuration 52, Acid Aptitude 30, 
+                                        Acid Protection II
+          Bite Protection III           Abjuration 52, Bite Aptitude 30, 
+                                        Bite Protection II
+          Blunt Protection III          Abjuration 52, Blunt Aptitude 30, 
+                                        Blunt Protection II
+          Chop Protection III           Abjuration 52, Chop Aptitude 30, 
+                                        Chop Protection II
+          Claw Protection III           Abjuration 52, Claw Aptitude 30, 
+                                        Claw Protection II
+          Cold Protection III           Abjuration 52, Cold Aptitude 30, 
+                                        Cold Protection II
+          Drain Protection III          Abjuration 52, Drain Aptitude 30, 
+                                        Drain Protection II
+          Electricity Protection III    Abjuration 52, 
+                                        Electricity Aptitude 30, 
+                                        Electricity Protection II
+          Fire Protection III           Abjuration 52, Fire Aptitude 30, 
+                                        Fire Protection II
+          Glyph Of Acid III             
+          Glyph Of Bite III             
+          Glyph Of Claw III             
+          Glyph Of Cold III             
+          Glyph Of Drain III            
+          Glyph Of Electricity III      
+          Glyph Of Fire III             
+          Glyph Of Magic III            
+          Glyph Of The Axe III          
+          Glyph Of The Force III        
+          Glyph Of The Hammer III       
+          Glyph Of The Spear III        
+          Glyph Of The Sword III        
+          Heal III                      Heal II, Restoration 52
+          Impact Protection III         Abjuration 52, Impact Aptitude 30, 
+                                        Impact Protection II
+          Magic Protection III          Abjuration 52, Magic Aptitude 30, 
+                                        Magic Protection II
+          Pierce Protection III         Abjuration 52, Pierce Aptitude 30, 
+                                        Pierce Protection II
+          Slash Protection III          Abjuration 52, Slash Aptitude 30, 
+                                        Slash Protection II
+Level 14  Claymore                      
+          Acid Resistance II            Acid Aptitude 40
+          All Thumbs III                Transmutation 60
+          Bad Health III                Transmutation 60
+          Bite Resistance II            Bite Aptitude 40
+          Blunt Resistance II           Blunt Aptitude 40
+          Chop Resistance II            Chop Aptitude 40
+          Claw Resistance II            Claw Aptitude 40
+          Cold Resistance II            Cold Aptitude 40
+          Constitution III              Transmutation 60
+          Dexterity III                 Transmutation 60
+          Drain Life II                 Necromancy 26
+          Drain Resistance II           Drain Aptitude 40
+          Electricity Resistance II     Electricity Aptitude 40
+          Fire Resistance II            Fire Aptitude 40
+          Flash Heal III                Flash Heal II, Restoration 52
+          Idiocy III                    Transmutation 60
+          Impact Resistance II          Impact Aptitude 40
+          Intelligence III              Transmutation 60
+          Magic Resistance II           Magic Aptitude 40
+          Pierce Resistance II          Pierce Aptitude 40
+          Slash Resistance II           Slash Aptitude 40
+          Strength III                  Transmutation 60
+          Temporary Armour II           Temporary Armour I, Transmutation 40
+          Temporary Constitution II     Temporary Constitution I, 
+                                        Transmutation 40
+          Temporary Damage II           Temporary Damage I, Transmutation 40
+          Temporary Dexterity II        Temporary Dexterity I, 
+                                        Transmutation 40
+          Temporary Intelligence II     Temporary Intelligence I, 
+                                        Transmutation 40
+          Temporary Strength II         Temporary Strength I, 
+                                        Transmutation 40
+          Weakness III                  Transmutation 60
+Level 15  War Hammer                    
+          Acid Ball III                 Acid Aptitude 45, Acid Ball II, 
+                                        Evocation 52
+          Acid Bolt III                 Acid Aptitude 45, Acid Bolt II, 
+                                        Evocation 52
+          Armour I                      Transmutation 20
+          Axe Ball III                  Axe Ball II, Chop Aptitude 45, 
+                                        Evocation 52
+          Axe Bolt III                  Axe Bolt II, Chop Aptitude 45, 
+                                        Evocation 52
+          Bite Ball III                 Bite Aptitude 45, Bite Ball II, 
+                                        Evocation 52
+          Bite Bolt III                 Bite Aptitude 45, Bite Bolt II, 
+                                        Evocation 52
+          Claw Ball III                 Claw Aptitude 45, Claw Ball II, 
+                                        Evocation 52
+          Claw Bolt III                 Claw Aptitude 45, Claw Bolt II, 
+                                        Evocation 52
+          Cold Ball III                 Cold Aptitude 45, Cold Ball II, 
+                                        Evocation 52
+          Cold Bolt III                 Cold Aptitude 45, Cold Bolt II, 
+                                        Evocation 52
+          Cumbersome IV                 Transmutation 40, Con 30
+          Drain Ball III                Drain Aptitude 45, Drain Ball II, 
+                                        Evocation 52
+          Drain Bolt III                Drain Aptitude 45, Drain Bolt II, 
+                                        Evocation 52
+          Drain Mind III                Necromancy 30
+          Electricity Ball III          Electricity Aptitude 45, 
+                                        Electricity Ball II, Evocation 52
+          Electricity Bolt III          Electricity Aptitude 45, 
+                                        Electricity Bolt II, Evocation 52
+          Fire Ball III                 Evocation 52, Fire Aptitude 45, 
+                                        Fire Ball II
+          Fire Bolt III                 Evocation 52, Fire Aptitude 45, 
+                                        Fire Bolt II
+          Force Ball III                Evocation 52, Force Ball II, 
+                                        Impact Aptitude 45
+          Force Bolt III                Evocation 52, Force Bolt II, 
+                                        Impact Aptitude 45
+          Glyph Of Armour IV            
+          Glyph Of Damage IV            
+          Glyph Of Elemental Resistance III
+          Glyph Of Featherweight IV     
+          Glyph Of Physical Resistance III
+          Glyph Of Speed IV             
+          Glyph Of Two Weapon III       
+          Gold                          
+          Hammer Ball III               Blunt Aptitude 45, Evocation 52, 
+                                        Hammer Ball II
+          Hammer Bolt III               Blunt Aptitude 45, Evocation 52, 
+                                        Hammer Bolt II
+          Magic Ball III                Evocation 52, Magic Aptitude 45, 
+                                        Magic Ball II
+          Magic Bolt III                Evocation 52, Magic Aptitude 45, 
+                                        Magic Bolt II
+          Night Vision III              Divination 15, Night Vision II
+          Rake III                      Claw Aptitude 60
+          Rejuvination III              Rejuvination II, Restoration 52
+          See Alignment III             Divination 15, See Alignment II
+          See Curse III                 Divination 15, See Curse II
+          See Magic III                 Divination 15, See Magic II
+          Siphon Life III               Necromancy 55, Siphon Life II
+          Siphon Mind III               Necromancy 55, Siphon Mind II
+          Spear Ball III                Evocation 52, Pierce Aptitude 45, 
+                                        Spear Ball II
+          Spear Bolt III                Evocation 52, Pierce Aptitude 45, 
+                                        Spear Bolt II
+          Sword Ball III                Evocation 52, Slash Aptitude 45, 
+                                        Sword Ball II
+          Sword Bolt III                Evocation 52, Slash Aptitude 45, 
+                                        Sword Bolt II
+          Unarmoured I                  Transmutation 20
+          Weightless III                Transmutation 75, Str 20
+Level 16  Halberd                       
+          Sacrifice Corpse III          Necromancy 25, Sacrifice Corpse II
+          Summon Food IV                Conjuration 65, Summon Food III
+          Summon Liquor IV              Conjuration 65, Summon Liquor III
+          Summon Water IV               Conjuration 65, Summon Water III
+Level 17  Spear                         
+          Acid Aura III                 Acid Aptitude 75
+          Acid Vulnerability II         Acid Aptitude 20
+          Bite Aura III                 Bite Aptitude 75
+          Bite Vulnerability II         Bite Aptitude 20
+          Blunt Edge III                Blunt Aptitude 75
+          Blunt Vulnerability II        Blunt Aptitude 20
+          Chop Edge III                 Chop Aptitude 75
+          Chop Vulnerability II         Chop Aptitude 20
+          Claw Aura III                 Claw Aptitude 75
+          Claw Vulnerability II         Claw Aptitude 20
+          Cold Aura III                 Cold Aptitude 75
+          Cold Vulnerability II         Cold Aptitude 20
+          Damage III                    Transmutation 60
+          Drain Aura III                Drain Aptitude 75
+          Drain Vulnerability II        Drain Aptitude 20
+          Electricity Aura III          Electricity Aptitude 75
+          Electricity Vulnerability II  Electricity Aptitude 20
+          Fire Aura III                 Fire Aptitude 75
+          Fire Vulnerability II         Fire Aptitude 20
+          Impact Aura III               Impact Aptitude 75
+          Impact Vulnerability II       Impact Aptitude 20
+          Magic Aura III                Magic Aptitude 75
+          Magic Vulnerability II        Magic Aptitude 20
+          Pierce Edge III               Pierce Aptitude 75
+          Pierce Vulnerability II       Pierce Aptitude 20
+          Slash Edge III                Slash Aptitude 75
+          Slash Vulnerability II        Slash Aptitude 20
+          Unarmed III                   Transmutation 60
+Level 18  Sceptre                       
+          Armour II                     Transmutation 40
+          Glyph Of Acid IV              
+          Glyph Of Bite IV              
+          Glyph Of Claw IV              
+          Glyph Of Cold IV              
+          Glyph Of Drain IV             
+          Glyph Of Electricity IV       
+          Glyph Of Fire IV              
+          Glyph Of Magic IV             
+          Glyph Of The Axe IV           
+          Glyph Of The Force IV         
+          Glyph Of The Hammer IV        
+          Glyph Of The Spear IV         
+          Glyph Of The Sword IV         
+          Heal IV                       Heal III, Restoration 76
+          Raise Dead I                  Necromancy 10
+          Unarmoured II                 Transmutation 40
+Level 19  Uchigatana                    
+          Acid Protection IV            Abjuration 76, Acid Aptitude 40, 
+                                        Acid Protection III
+          Acid Resistance III           Acid Aptitude 60
+          Bite Protection IV            Abjuration 76, Bite Aptitude 40, 
+                                        Bite Protection III
+          Bite Resistance III           Bite Aptitude 60
+          Blunt Protection IV           Abjuration 76, Blunt Aptitude 40, 
+                                        Blunt Protection III
+          Blunt Resistance III          Blunt Aptitude 60
+          Chop Protection IV            Abjuration 76, Chop Aptitude 40, 
+                                        Chop Protection III
+          Chop Resistance III           Chop Aptitude 60
+          Claw Protection IV            Abjuration 76, Claw Aptitude 40, 
+                                        Claw Protection III
+          Claw Resistance III           Claw Aptitude 60
+          Cold Protection IV            Abjuration 76, Cold Aptitude 40, 
+                                        Cold Protection III
+          Cold Resistance III           Cold Aptitude 60
+          Drain Life III                Necromancy 42
+          Drain Protection IV           Abjuration 76, Drain Aptitude 40, 
+                                        Drain Protection III
+          Drain Resistance III          Drain Aptitude 60
+          Electricity Protection IV     Abjuration 76, 
+                                        Electricity Aptitude 40, 
+                                        Electricity Protection III
+          Electricity Resistance III    Electricity Aptitude 60
+          Fire Protection IV            Abjuration 76, Fire Aptitude 40, 
+                                        Fire Protection III
+          Fire Resistance III           Fire Aptitude 60
+          Flash Heal IV                 Flash Heal III, Restoration 76
+          Impact Protection IV          Abjuration 76, Impact Aptitude 40, 
+                                        Impact Protection III
+          Impact Resistance III         Impact Aptitude 60
+          Magic Protection IV           Abjuration 76, Magic Aptitude 40, 
+                                        Magic Protection III
+          Magic Resistance III          Magic Aptitude 60
+          Pierce Protection IV          Abjuration 76, Pierce Aptitude 40, 
+                                        Pierce Protection III
+          Pierce Resistance III         Pierce Aptitude 60
+          Slash Protection IV           Abjuration 76, Slash Aptitude 40, 
+                                        Slash Protection III
+          Slash Resistance III          Slash Aptitude 60
+          Temporary Armour III          Temporary Armour II, Transmutation 60
+          Temporary Constitution III    Temporary Constitution II, 
+                                        Transmutation 60
+          Temporary Damage III          Temporary Damage II, Transmutation 60
+          Temporary Dexterity III       Temporary Dexterity II, 
+                                        Transmutation 60
+          Temporary Intelligence III    Temporary Intelligence II, 
+                                        Transmutation 60
+          Temporary Strength III        Temporary Strength II, 
+                                        Transmutation 60
+Level 20  Acid Ball IV                  Acid Aptitude 65, Acid Ball III, 
+                                        Evocation 76
+          Acid Bolt IV                  Acid Aptitude 65, Acid Bolt III, 
+                                        Evocation 76
+          Acid Storm I                  Acid Aptitude 5, Evocation 5
+          Acid Wave I                   Acid Aptitude 5, Evocation 5
+          Axe Ball IV                   Axe Ball III, Chop Aptitude 65, 
+                                        Evocation 76
+          Axe Bolt IV                   Axe Bolt III, Chop Aptitude 65, 
+                                        Evocation 76
+          Axe Storm I                   Chop Aptitude 5, Evocation 5
+          Axe Wave I                    Chop Aptitude 5, Evocation 5
+          B Blue                        Illusionism 75
+          B Cyan                        Illusionism 75
+          B Green                       Illusionism 75
+          B Magenta                     Illusionism 75
+          B Red                         Illusionism 75
+          B Yellow                      Illusionism 75
+          Bite Ball IV                  Bite Aptitude 65, Bite Ball III, 
+                                        Evocation 76
+          Bite Bolt IV                  Bite Aptitude 65, Bite Bolt III, 
+                                        Evocation 76
+          Bite Storm I                  Bite Aptitude 5, Evocation 5
+          Bite Wave I                   Bite Aptitude 5, Evocation 5
+          Claw Ball IV                  Claw Aptitude 65, Claw Ball III, 
+                                        Evocation 76
+          Claw Bolt IV                  Claw Aptitude 65, Claw Bolt III, 
+                                        Evocation 76
+          Claw Storm I                  Claw Aptitude 5, Evocation 5
+          Claw Wave I                   Claw Aptitude 5, Evocation 5
+          Cold Ball IV                  Cold Aptitude 65, Cold Ball III, 
+                                        Evocation 76
+          Cold Bolt IV                  Cold Aptitude 65, Cold Bolt III, 
+                                        Evocation 76
+          Cold Storm I                  Cold Aptitude 5, Evocation 5
+          Cold Wave I                   Cold Aptitude 5, Evocation 5
+          Drain Ball IV                 Drain Aptitude 65, Drain Ball III, 
+                                        Evocation 76
+          Drain Bolt IV                 Drain Aptitude 65, Drain Bolt III, 
+                                        Evocation 76
+          Drain Mind IV                 Necromancy 40
+          Drain Storm I                 Drain Aptitude 5, Evocation 5
+          Drain Wave I                  Drain Aptitude 5, Evocation 5
+          Electricity Ball IV           Electricity Aptitude 65, 
+                                        Electricity Ball III, Evocation 76
+          Electricity Bolt IV           Electricity Aptitude 65, 
+                                        Electricity Bolt III, Evocation 76
+          Electricity Storm I           Electricity Aptitude 5, Evocation 5
+          Electricity Wave I            Electricity Aptitude 5, Evocation 5
+          Fire Ball IV                  Evocation 76, Fire Aptitude 65, 
+                                        Fire Ball III
+          Fire Bolt IV                  Evocation 76, Fire Aptitude 65, 
+                                        Fire Bolt III
+          Fire Storm I                  Evocation 5, Fire Aptitude 5
+          Fire Wave I                   Evocation 5, Fire Aptitude 5
+          Force Ball IV                 Evocation 76, Force Ball III, 
+                                        Impact Aptitude 65
+          Force Bolt IV                 Evocation 76, Force Bolt III, 
+                                        Impact Aptitude 65
+          Force Storm I                 Evocation 5, Impact Aptitude 5
+          Force Wave I                  Evocation 5, Impact Aptitude 5
+          Glyph Of Armour V             
+          Glyph Of Constitution III     
+          Glyph Of Damage V             
+          Glyph Of Dexterity III        
+          Glyph Of Featherweight V      
+          Glyph Of Intelligence III     
+          Glyph Of Speed V              
+          Glyph Of Strength III         
+          Hammer Ball IV                Blunt Aptitude 65, Evocation 76, 
+                                        Hammer Ball III
+          Hammer Bolt IV                Blunt Aptitude 65, Evocation 76, 
+                                        Hammer Bolt III
+          Hammer Storm I                Blunt Aptitude 5, Evocation 5
+          Hammer Wave I                 Blunt Aptitude 5, Evocation 5
+          Identify III                  Divination 60, Identify II
+          Invisibility I                Illusionism 10
+          Mad Rage I                    Enchantment 25
+          Magic Ball IV                 Evocation 76, Magic Aptitude 65, 
+                                        Magic Ball III
+          Magic Bolt IV                 Evocation 76, Magic Aptitude 65, 
+                                        Magic Bolt III
+          Magic Storm I                 Evocation 5, Magic Aptitude 5
+          Magic Wave I                  Evocation 5, Magic Aptitude 5
+          Night Vision IV               Divination 20, Night Vision III
+          Rejuvination IV               Rejuvination III, Restoration 76
+          Remember I                    Conjuration 20
+          See Alignment IV              Divination 20, See Alignment III
+          See Curse IV                  Divination 20, See Curse III
+          See Invisible I               Divination 5
+          See Magic IV                  Divination 20, See Magic III
+          Shield I                      Abjuration 5
+          Siphon Life IV                Necromancy 77, Siphon Life III
+          Siphon Mind IV                Necromancy 77, Siphon Mind III
+          Spear Ball IV                 Evocation 76, Pierce Aptitude 65, 
+                                        Spear Ball III
+          Spear Bolt IV                 Evocation 76, Pierce Aptitude 65, 
+                                        Spear Bolt III
+          Spear Storm I                 Evocation 5, Pierce Aptitude 5
+          Spear Wave I                  Evocation 5, Pierce Aptitude 5
+          Steel                         
+          Summon Food V                 Conjuration 85, Summon Food IV
+          Summon Liquor V               Conjuration 85, Summon Liquor IV
+          Summon Water V                Conjuration 85, Summon Water IV
+          Sword Ball IV                 Evocation 76, Slash Aptitude 65, 
+                                        Sword Ball III
+          Sword Bolt IV                 Evocation 76, Slash Aptitude 65, 
+                                        Sword Bolt III
+          Sword Storm I                 Evocation 5, Slash Aptitude 5
+          Sword Wave I                  Evocation 5, Slash Aptitude 5
+          Teleport I                    Conjuration 20
+          True Weapon I                 
+          Weightless IV                 Transmutation 100, Str 30
+Level 21  Longsword                     
+          All Thumbs IV                 Transmutation 80
+          Bad Health IV                 Transmutation 80
+          Constitution IV               Transmutation 80
+          Dexterity IV                  Transmutation 80
+          Idiocy IV                     Transmutation 80
+          Intelligence IV               Transmutation 80
+          Mad Rage II                   Enchantment 43, Mad Rage I
+          Sacrifice Corpse IV           Necromancy 32, Sacrifice Corpse III
+          Strength IV                   Transmutation 80
+          Weakness IV                   Transmutation 80
+Level 22  Morning Star                  
+          Acid Storm II                 Acid Aptitude 25, Acid Storm I, 
+                                        Evocation 28
+          Acid Wave II                  Acid Aptitude 25, Acid Wave I, 
+                                        Evocation 28
+          Armour III                    Transmutation 60
+          Axe Storm II                  Axe Storm I, Chop Aptitude 25, 
+                                        Evocation 28
+          Axe Wave II                   Axe Wave I, Chop Aptitude 25, 
+                                        Evocation 28
+          Bite Storm II                 Bite Aptitude 25, Bite Storm I, 
+                                        Evocation 28
+          Bite Wave II                  Bite Aptitude 25, Bite Wave I, 
+                                        Evocation 28
+          Claw Storm II                 Claw Aptitude 25, Claw Storm I, 
+                                        Evocation 28
+          Claw Wave II                  Claw Aptitude 25, Claw Wave I, 
+                                        Evocation 28
+          Cold Storm II                 Cold Aptitude 25, Cold Storm I, 
+                                        Evocation 28
+          Cold Wave II                  Cold Aptitude 25, Cold Wave I, 
+                                        Evocation 28
+          Drain Storm II                Drain Aptitude 25, Drain Storm I, 
+                                        Evocation 28
+          Drain Wave II                 Drain Aptitude 25, Drain Wave I, 
+                                        Evocation 28
+          Electricity Storm II          Electricity Aptitude 25, 
+                                        Electricity Storm I, Evocation 28
+          Electricity Wave II           Electricity Aptitude 25, 
+                                        Electricity Wave I, Evocation 28
+          Fire Storm II                 Evocation 28, Fire Aptitude 25, 
+                                        Fire Storm I
+          Fire Wave II                  Evocation 28, Fire Aptitude 25, 
+                                        Fire Wave I
+          Force Storm II                Evocation 28, Force Storm I, 
+                                        Impact Aptitude 25
+          Force Wave II                 Evocation 28, Force Wave I, 
+                                        Impact Aptitude 25
+          Glyph Of Elemental Resistance IV
+          Glyph Of Physical Resistance IV
+          Glyph Of Two Weapon IV        
+          Hammer Storm II               Blunt Aptitude 25, Evocation 28, 
+                                        Hammer Storm I
+          Hammer Wave II                Blunt Aptitude 25, Evocation 28, 
+                                        Hammer Wave I
+          Invisibility II               Illusionism 20, Invisibility I
+          Mad Rage III                  Enchantment 62, Mad Rage II
+          Magic Storm II                Evocation 28, Magic Aptitude 25, 
+                                        Magic Storm I
+          Magic Wave II                 Evocation 28, Magic Aptitude 25, 
+                                        Magic Wave I
+          Rake IV                       Claw Aptitude 80
+          Remember II                   Conjuration 40, Remember I
+          Shield II                     Abjuration 25, Shield I
+          Spear Storm II                Evocation 28, Pierce Aptitude 25, 
+                                        Spear Storm I
+          Spear Wave II                 Evocation 28, Pierce Aptitude 25, 
+                                        Spear Wave I
+          Sword Storm II                Evocation 28, Slash Aptitude 25, 
+                                        Sword Storm I
+          Sword Wave II                 Evocation 28, Slash Aptitude 25, 
+                                        Sword Wave I
+          Teleport II                   Conjuration 40, Teleport I
+          True Weapon II                
+          Unarmoured III                Transmutation 60
+Level 23  Bearded Axe                   
+          Charm I                       Enchantment 10
+          Damage IV                     Transmutation 80
+          Glyph Of Acid V               
+          Glyph Of Bite V               
+          Glyph Of Claw V               
+          Glyph Of Cold V               
+          Glyph Of Drain V              
+          Glyph Of Electricity V        
+          Glyph Of Fire V               
+          Glyph Of Magic V              
+          Glyph Of The Axe V            
+          Glyph Of The Force V          
+          Glyph Of The Hammer V         
+          Glyph Of The Spear V          
+          Glyph Of The Sword V          
+          Heal V                        Heal IV, Restoration 100
+          Mad Rage IV                   Enchantment 81, Mad Rage III
+          Raise Dead II                 Necromancy 25, Raise Dead I
+          See Invisible II              Divination 10, See Invisible I
+          Unarmed IV                    Transmutation 80
+Level 24  Acid Resistance IV            Acid Aptitude 80
+          Acid Storm III                Acid Aptitude 45, Acid Storm II, 
+                                        Evocation 52
+          Acid Wave III                 Acid Aptitude 45, Acid Wave II, 
+                                        Evocation 52
+          Axe Storm III                 Axe Storm II, Chop Aptitude 45, 
+                                        Evocation 52
+          Axe Wave III                  Axe Wave II, Chop Aptitude 45, 
+                                        Evocation 52
+          Bite Resistance IV            Bite Aptitude 80
+          Bite Storm III                Bite Aptitude 45, Bite Storm II, 
+                                        Evocation 52
+          Bite Wave III                 Bite Aptitude 45, Bite Wave II, 
+                                        Evocation 52
+          Blunt Resistance IV           Blunt Aptitude 80
+          Chop Resistance IV            Chop Aptitude 80
+          Claw Resistance IV            Claw Aptitude 80
+          Claw Storm III                Claw Aptitude 45, Claw Storm II, 
+                                        Evocation 52
+          Claw Wave III                 Claw Aptitude 45, Claw Wave II, 
+                                        Evocation 52
+          Cold Resistance IV            Cold Aptitude 80
+          Cold Storm III                Cold Aptitude 45, Cold Storm II, 
+                                        Evocation 52
+          Cold Wave III                 Cold Aptitude 45, Cold Wave II, 
+                                        Evocation 52
+          Drain Life IV                 Necromancy 58
+          Drain Resistance IV           Drain Aptitude 80
+          Drain Storm III               Drain Aptitude 45, Drain Storm II, 
+                                        Evocation 52
+          Drain Wave III                Drain Aptitude 45, Drain Wave II, 
+                                        Evocation 52
+          Electricity Resistance IV     Electricity Aptitude 80
+          Electricity Storm III         Electricity Aptitude 45, 
+                                        Electricity Storm II, Evocation 52
+          Electricity Wave III          Electricity Aptitude 45, 
+                                        Electricity Wave II, Evocation 52
+          Fire Resistance IV            Fire Aptitude 80
+          Fire Storm III                Evocation 52, Fire Aptitude 45, 
+                                        Fire Storm II
+          Fire Wave III                 Evocation 52, Fire Aptitude 45, 
+                                        Fire Wave II
+          Flash Heal V                  Flash Heal IV, Restoration 100
+          Force Storm III               Evocation 52, Force Storm II, 
+                                        Impact Aptitude 45
+          Force Wave III                Evocation 52, Force Wave II, 
+                                        Impact Aptitude 45
+          Hammer Storm III              Blunt Aptitude 45, Evocation 52, 
+                                        Hammer Storm II
+          Hammer Wave III               Blunt Aptitude 45, Evocation 52, 
+                                        Hammer Wave II
+          Impact Resistance IV          Impact Aptitude 80
+          Invisibility III              Illusionism 30, Invisibility II
+          Magic Resistance IV           Magic Aptitude 80
+          Magic Storm III               Evocation 52, Magic Aptitude 45, 
+                                        Magic Storm II
+          Magic Wave III                Evocation 52, Magic Aptitude 45, 
+                                        Magic Wave II
+          Pierce Resistance IV          Pierce Aptitude 80
+          Remember III                  Conjuration 60, Remember II
+          Shield III                    Abjuration 45, Shield II
+          Slash Resistance IV           Slash Aptitude 80
+          Spear Storm III               Evocation 52, Pierce Aptitude 45, 
+                                        Spear Storm II
+          Spear Wave III                Evocation 52, Pierce Aptitude 45, 
+                                        Spear Wave II
+          Sword Storm III               Evocation 52, Slash Aptitude 45, 
+                                        Sword Storm II
+          Sword Wave III                Evocation 52, Slash Aptitude 45, 
+                                        Sword Wave II
+          Teleport III                  Conjuration 60, Teleport II
+          Temporary Armour IV           Temporary Armour III, 
+                                        Transmutation 80
+          Temporary Constitution IV     Temporary Constitution III, 
+                                        Transmutation 80
+          Temporary Damage IV           Temporary Damage III, 
+                                        Transmutation 80
+          Temporary Dexterity IV        Temporary Dexterity III, 
+                                        Transmutation 80
+          Temporary Intelligence IV     Temporary Intelligence III, 
+                                        Transmutation 80
+          Temporary Strength IV         Temporary Strength III, 
+                                        Transmutation 80
+          True Weapon III               
+          Zweihander                    
+Level 25  Spiked Flail                  
+          Acid Ball V                   Acid Aptitude 85, Acid Ball IV, 
+                                        Evocation 100
+          Acid Bolt V                   Acid Aptitude 85, Acid Bolt IV, 
+                                        Evocation 100
+          Acid Protection V             Abjuration 100, Acid Aptitude 50, 
+                                        Acid Protection IV
+          Acid Vulnerability III        Acid Aptitude 30
+          Armour IV                     Transmutation 80
+          Axe Ball V                    Axe Ball IV, Chop Aptitude 85, 
+                                        Evocation 100
+          Axe Bolt V                    Axe Bolt IV, Chop Aptitude 85, 
+                                        Evocation 100
+          Bite Ball V                   Bite Aptitude 85, Bite Ball IV, 
+                                        Evocation 100
+          Bite Bolt V                   Bite Aptitude 85, Bite Bolt IV, 
+                                        Evocation 100
+          Bite Protection V             Abjuration 100, Bite Aptitude 50, 
+                                        Bite Protection IV
+          Bite Vulnerability III        Bite Aptitude 30
+          Blunt Protection V            Abjuration 100, Blunt Aptitude 50, 
+                                        Blunt Protection IV
+          Blunt Vulnerability III       Blunt Aptitude 30
+          Chop Protection V             Abjuration 100, Chop Aptitude 50, 
+                                        Chop Protection IV
+          Chop Vulnerability III        Chop Aptitude 30
+          Claw Ball V                   Claw Aptitude 85, Claw Ball IV, 
+                                        Evocation 100
+          Claw Bolt V                   Claw Aptitude 85, Claw Bolt IV, 
+                                        Evocation 100
+          Claw Protection V             Abjuration 100, Claw Aptitude 50, 
+                                        Claw Protection IV
+          Claw Vulnerability III        Claw Aptitude 30
+          Cold Ball V                   Cold Aptitude 85, Cold Ball IV, 
+                                        Evocation 100
+          Cold Bolt V                   Cold Aptitude 85, Cold Bolt IV, 
+                                        Evocation 100
+          Cold Protection V             Abjuration 100, Cold Aptitude 50, 
+                                        Cold Protection IV
+          Cold Vulnerability III        Cold Aptitude 30
+          Drain Ball V                  Drain Aptitude 85, Drain Ball IV, 
+                                        Evocation 100
+          Drain Bolt V                  Drain Aptitude 85, Drain Bolt IV, 
+                                        Evocation 100
+          Drain Mind V                  Necromancy 50
+          Drain Protection V            Abjuration 100, Drain Aptitude 50, 
+                                        Drain Protection IV
+          Drain Vulnerability III       Drain Aptitude 30
+          Electricity Ball V            Electricity Aptitude 85, 
+                                        Electricity Ball IV, Evocation 100
+          Electricity Bolt V            Electricity Aptitude 85, 
+                                        Electricity Bolt IV, Evocation 100
+          Electricity Protection V      Abjuration 100, 
+                                        Electricity Aptitude 50, 
+                                        Electricity Protection IV
+          Electricity Vulnerability III Electricity Aptitude 30
+          Fire Ball V                   Evocation 100, Fire Aptitude 85, 
+                                        Fire Ball IV
+          Fire Bolt V                   Evocation 100, Fire Aptitude 85, 
+                                        Fire Bolt IV
+          Fire Protection V             Abjuration 100, Fire Aptitude 50, 
+                                        Fire Protection IV
+          Fire Vulnerability III        Fire Aptitude 30
+          Force Ball V                  Evocation 100, Force Ball IV, 
+                                        Impact Aptitude 85
+          Force Bolt V                  Evocation 100, Force Bolt IV, 
+                                        Impact Aptitude 85
+          Hammer Ball V                 Blunt Aptitude 85, Evocation 100, 
+                                        Hammer Ball IV
+          Hammer Bolt V                 Blunt Aptitude 85, Evocation 100, 
+                                        Hammer Bolt IV
+          Impact Protection V           Abjuration 100, Impact Aptitude 50, 
+                                        Impact Protection IV
+          Impact Vulnerability III      Impact Aptitude 30
+          Mad Rage V                    Enchantment 100, Mad Rage IV
+          Magic Ball V                  Evocation 100, Magic Aptitude 85, 
+                                        Magic Ball IV
+          Magic Bolt V                  Evocation 100, Magic Aptitude 85, 
+                                        Magic Bolt IV
+          Magic Protection V            Abjuration 100, Magic Aptitude 50, 
+                                        Magic Protection IV
+          Magic Vulnerability III       Magic Aptitude 30
+          Mithril                       
+          Pierce Protection V           Abjuration 100, Pierce Aptitude 50, 
+                                        Pierce Protection IV
+          Pierce Vulnerability III      Pierce Aptitude 30
+          Rejuvination V                Rejuvination IV, Restoration 100
+          Siphon Life V                 Necromancy 100, Siphon Life IV
+          Siphon Mind V                 Necromancy 100, Siphon Mind IV
+          Slash Protection V            Abjuration 100, Slash Aptitude 50, 
+                                        Slash Protection IV
+          Slash Vulnerability III       Slash Aptitude 30
+          Spear Ball V                  Evocation 100, Pierce Aptitude 85, 
+                                        Spear Ball IV
+          Spear Bolt V                  Evocation 100, Pierce Aptitude 85, 
+                                        Spear Bolt IV
+          Sword Ball V                  Evocation 100, Slash Aptitude 85, 
+                                        Sword Ball IV
+          Sword Bolt V                  Evocation 100, Slash Aptitude 85, 
+                                        Sword Bolt IV
+          Unarmoured IV                 Transmutation 80
+Level 26  Great Axe                     
+          Acid Aura IV                  Acid Aptitude 100
+          Acid Storm IV                 Acid Aptitude 65, Acid Storm III, 
+                                        Evocation 76
+          Acid Wave IV                  Acid Aptitude 65, Acid Wave III, 
+                                        Evocation 76
+          Axe Storm IV                  Axe Storm III, Chop Aptitude 65, 
+                                        Evocation 76
+          Axe Wave IV                   Axe Wave III, Chop Aptitude 65, 
+                                        Evocation 76
+          Bite Aura IV                  Bite Aptitude 100
+          Bite Storm IV                 Bite Aptitude 65, Bite Storm III, 
+                                        Evocation 76
+          Bite Wave IV                  Bite Aptitude 65, Bite Wave III, 
+                                        Evocation 76
+          Blunt Edge IV                 Blunt Aptitude 100
+          Charm II                      Charm I, Enchantment 30
+          Chop Edge IV                  Chop Aptitude 100
+          Claw Aura IV                  Claw Aptitude 100
+          Claw Storm IV                 Claw Aptitude 65, Claw Storm III, 
+                                        Evocation 76
+          Claw Wave IV                  Claw Aptitude 65, Claw Wave III, 
+                                        Evocation 76
+          Cold Aura IV                  Cold Aptitude 100
+          Cold Storm IV                 Cold Aptitude 65, Cold Storm III, 
+                                        Evocation 76
+          Cold Wave IV                  Cold Aptitude 65, Cold Wave III, 
+                                        Evocation 76
+          Drain Aura IV                 Drain Aptitude 100
+          Drain Storm IV                Drain Aptitude 65, Drain Storm III, 
+                                        Evocation 76
+          Drain Wave IV                 Drain Aptitude 65, Drain Wave III, 
+                                        Evocation 76
+          Electricity Aura IV           Electricity Aptitude 100
+          Electricity Storm IV          Electricity Aptitude 65, 
+                                        Electricity Storm III, Evocation 76
+          Electricity Wave IV           Electricity Aptitude 65, 
+                                        Electricity Wave III, Evocation 76
+          Fire Aura IV                  Fire Aptitude 100
+          Fire Storm IV                 Evocation 76, Fire Aptitude 65, 
+                                        Fire Storm III
+          Fire Wave IV                  Evocation 76, Fire Aptitude 65, 
+                                        Fire Wave III
+          Force Storm IV                Evocation 76, Force Storm III, 
+                                        Impact Aptitude 65
+          Force Wave IV                 Evocation 76, Force Wave III, 
+                                        Impact Aptitude 65
+          Hammer Storm IV               Blunt Aptitude 65, Evocation 76, 
+                                        Hammer Storm III
+          Hammer Wave IV                Blunt Aptitude 65, Evocation 76, 
+                                        Hammer Wave III
+          Impact Aura IV                Impact Aptitude 100
+          Invisibility IV               Illusionism 40, Invisibility III
+          Magic Aura IV                 Magic Aptitude 100
+          Magic Storm IV                Evocation 76, Magic Aptitude 65, 
+                                        Magic Storm III
+          Magic Wave IV                 Evocation 76, Magic Aptitude 65, 
+                                        Magic Wave III
+          Pierce Edge IV                Pierce Aptitude 100
+          Remember IV                   Conjuration 80, Remember III
+          Sacrifice Corpse V            Necromancy 40, Sacrifice Corpse IV
+          See Invisible III             Divination 15, See Invisible II
+          Shield IV                     Abjuration 65, Shield III
+          Slash Edge IV                 Slash Aptitude 100
+          Spear Storm IV                Evocation 76, Pierce Aptitude 65, 
+                                        Spear Storm III
+          Spear Wave IV                 Evocation 76, Pierce Aptitude 65, 
+                                        Spear Wave III
+          Sword Storm IV                Evocation 76, Slash Aptitude 65, 
+                                        Sword Storm III
+          Sword Wave IV                 Evocation 76, Slash Aptitude 65, 
+                                        Sword Wave III
+          Teleport IV                   Conjuration 80, Teleport III
+          True Weapon IV                
+Level 27  Winged Spear                  
+Level 28  Quarterstaff                  
+          Acid Storm V                  Acid Aptitude 85, Acid Storm IV, 
+                                        Evocation 100
+          Acid Wave V                   Acid Aptitude 85, Acid Wave IV, 
+                                        Evocation 100
+          All Thumbs V                  Transmutation 100
+          Axe Storm V                   Axe Storm IV, Chop Aptitude 85, 
+                                        Evocation 100
+          Axe Wave V                    Axe Wave IV, Chop Aptitude 85, 
+                                        Evocation 100
+          Bad Health V                  Transmutation 100
+          Bite Storm V                  Bite Aptitude 85, Bite Storm IV, 
+                                        Evocation 100
+          Bite Wave V                   Bite Aptitude 85, Bite Wave IV, 
+                                        Evocation 100
+          Claw Storm V                  Claw Aptitude 85, Claw Storm IV, 
+                                        Evocation 100
+          Claw Wave V                   Claw Aptitude 85, Claw Wave IV, 
+                                        Evocation 100
+          Cold Storm V                  Cold Aptitude 85, Cold Storm IV, 
+                                        Evocation 100
+          Cold Wave V                   Cold Aptitude 85, Cold Wave IV, 
+                                        Evocation 100
+          Constitution V                Transmutation 100
+          Dexterity V                   Transmutation 100
+          Drain Storm V                 Drain Aptitude 85, Drain Storm IV, 
+                                        Evocation 100
+          Drain Wave V                  Drain Aptitude 85, Drain Wave IV, 
+                                        Evocation 100
+          Electricity Storm V           Electricity Aptitude 85, 
+                                        Electricity Storm IV, Evocation 100
+          Electricity Wave V            Electricity Aptitude 85, 
+                                        Electricity Wave IV, Evocation 100
+          Fire Storm V                  Evocation 100, Fire Aptitude 85, 
+                                        Fire Storm IV
+          Fire Wave V                   Evocation 100, Fire Aptitude 85, 
+                                        Fire Wave IV
+          Force Storm V                 Evocation 100, Force Storm IV, 
+                                        Impact Aptitude 85
+          Force Wave V                  Evocation 100, Force Wave IV, 
+                                        Impact Aptitude 85
+          Hammer Storm V                Blunt Aptitude 85, Evocation 100, 
+                                        Hammer Storm IV
+          Hammer Wave V                 Blunt Aptitude 85, Evocation 100, 
+                                        Hammer Wave IV
+          Idiocy V                      Transmutation 100
+          Intelligence V                Transmutation 100
+          Invisibility V                Illusionism 50, Invisibility IV
+          Magic Storm V                 Evocation 100, Magic Aptitude 85, 
+                                        Magic Storm IV
+          Magic Wave V                  Evocation 100, Magic Aptitude 85, 
+                                        Magic Wave IV
+          Raise Dead III                Necromancy 40, Raise Dead II
+          Remember V                    Conjuration 100, Remember IV
+          Spear Storm V                 Evocation 100, Pierce Aptitude 85, 
+                                        Spear Storm IV
+          Spear Wave V                  Evocation 100, Pierce Aptitude 85, 
+                                        Spear Wave IV
+          Strength V                    Transmutation 100
+          Sword Storm V                 Evocation 100, Slash Aptitude 85, 
+                                        Sword Storm IV
+          Sword Wave V                  Evocation 100, Slash Aptitude 85, 
+                                        Sword Wave IV
+          Teleport V                    Conjuration 100, Teleport IV
+          Weakness V                    Transmutation 100
+Level 29  Bite Aptitude                 Initiate of the Bite
+          Claw Aptitude                 Initiate of the Claw
+          Drain Aptitude                Initiate of the Vampire
+          Impact Aptitude               Initiate of the Force
+          Nodachi                       
+          Acid Resistance V             Acid Aptitude 100
+          Armour V                      Transmutation 100
+          Bite Resistance V             Bite Aptitude 100
+          Blunt Resistance V            Blunt Aptitude 100
+          Charm III                     Charm II, Enchantment 50
+          Chop Resistance V             Chop Aptitude 100
+          Claw Resistance V             Claw Aptitude 100
+          Cold Resistance V             Cold Aptitude 100
+          Damage V                      Transmutation 100
+          Drain Life V                  Necromancy 75
+          Drain Resistance V            Drain Aptitude 100
+          Electricity Resistance V      Electricity Aptitude 100
+          Eog                           
+          Fire Resistance V             Fire Aptitude 100
+          Glyph Of Elemental Resistance V
+          Glyph Of Physical Resistance V
+          Glyph Of Two Weapon V         
+          Impact Resistance V           Impact Aptitude 100
+          Magic Resistance V            Magic Aptitude 100
+          Pierce Resistance V           Pierce Aptitude 100
+          Rake V                        Claw Aptitude 100
+          See Invisible IV              Divination 20, See Invisible III
+          Shield V                      Abjuration 85, Shield IV
+          Slash Resistance V            Slash Aptitude 100
+          Temporary Armour V            Temporary Armour IV, 
+                                        Transmutation 100
+          Temporary Constitution V      Temporary Constitution IV, 
+                                        Transmutation 100
+          Temporary Damage V            Temporary Damage IV, 
+                                        Transmutation 100
+          Temporary Dexterity V         Temporary Dexterity IV, 
+                                        Transmutation 100
+          Temporary Intelligence V      Temporary Intelligence IV, 
+                                        Transmutation 100
+          Temporary Strength V          Temporary Strength IV, 
+                                        Transmutation 100
+          True Weapon V                 
+          Unarmed V                     Transmutation 100
+          Unarmoured V                  Transmutation 100
+-------------------------------------------------------------------------------

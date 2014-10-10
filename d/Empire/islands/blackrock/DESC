@@ -1,0 +1,79 @@
+The maze of Blackrock mountain is a randomly generated area that contains a vast
+seleciton of level 25 - 35 wandering monsters. At the heart of the maze is a
+treasure chest. Once the chest is opened, the keeper of Blackrock spawns at the
+entrance and initiates the creation of a new maze.
+
+Every monster inside the maze drops a number of "black coins" (up to
+BRD_COIN_LOOT, depending on level of mob). The treasure chest contains
+BRD_COIN_TREASURE coins. These coins can be used at the merchant at the entrance
+to buy randomly generated items from EMP_D_ARMOUR and EMP_D_WEAPON, with
+randomly generated enchants from EMP_D_ENCHANT.
+
+When a player moves through the maze, he leaves a "crumb" that lasts for 60
+seconds that allow the mobs within the maze to follow him. This means there is
+no easy way to run from a fight, and newly spawned mobs will come for you.
+
+All critters inherit std/critter, which ha built-int scaling and special attacks
+based on danger-level. The monster code in obj/ is mostly about setting up 
+unique descriptions and equipment, but in some cases it also adds some extra
+flavor effects.
+
+At danger level 0:
+===> Round: 146   Damage: 2     Max: 48   Total: 2537   Average: 17.26
+===> Round: 146   Hits:   1     Max: 2    Total: 151    Average: 1.03
+===> Round: 146   Busy:   0     Max: 0    Total: 0      Average: 0.00
+
+At danger level 50:
+===> Round: 64    Damage: 2     Max: 44   Total: 2113   Average: 32.51
+===> Round: 64    Hits:   1     Max: 4    Total: 105    Average: 1.62
+===> Round: 64    Busy:   0     Max: 2    Total: 4      Average: 0.06
+
+At danger level 100:
+===> Round: 81    Damage: 2     Max: 49   Total: 3260   Average: 39.76
+===> Round: 81    Hits:   1     Max: 3    Total: 140    Average: 1.71
+===> Round: 81    Busy:   0     Max: 2    Total: 5      Average: 0.06
+
+Loot distribution is as follows:
+- archon:       legging
+- basilisk:     black coin
+- beholder:     black coin
+- death_knight: weapon
+- devil:        cloak
+- drake:        black coin
+- efreet:       belt
+- elemental:    black coin
+- gargoyle:     shield
+- ghoul:        glove
+- golem:        armour
+- lich:         ring
+- mind_flayer:  amulet
+- minotaur:     boot
+- ooze:         black coin
+- skeleton:     black coin
+- wraith:       helmet
+
+All of the rewards have already passed through QC, so the only QC issue with
+that is the goodness of the items that one can buy for the black coins. The
+translation from coins to item and enchant goodness can be configured using
+defines inside obj/merchant.c
+
+Keep in mind that an item with quality 100 is as good as the mudlib allows
+without any specials (i.e. 20 wc, 4 ac). All quality beyond 100 contributes to
+an enchant, where 100 enchant value equals a level 29 Runewaker enchant, 200
+equals two level 29 enchants, etc. For instance, a 150 quality sword has wc 20
+and half a level 29 Runewaker enchant. 
+
+The following defines are available for tuning:
+- BRD_COIN_LOOT(dgr): the number of coins rewarded at the given dangerlevel.
+- BRD_COIN_TREASURE:  the number of coins in the treasure.
+- BRD_COIN_PER_QLTY:  how many coins to pay per 1 quality.
+- BRD_ARMOUR_QMIN:    the lowest quality armour that can be bought.
+- BRD_ARMOUR_QMAX:    the highest quality armour that can be bought.
+- BRD_WEAPON_QMIN:    the lowest quality weapon that can be bought.
+- BRD_WEAPON_QMAX:    the highest quality weapon that can be bought.
+
+With a ARMOUR_QMAX = 250 and COIN_PER_QLTY = 5, one would have to pay (250 * 5)
+= 1250 coins for the best possible reward. With BRD_COIN_LOOT rewarding 1 - 10
+coins, one would have to kill somewhere between 125 and 1250 mobs to buy one
+such item.
+

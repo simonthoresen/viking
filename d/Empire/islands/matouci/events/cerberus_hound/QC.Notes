@@ -1,0 +1,37 @@
+QC of project #467: The Cerberus Hound
+Creator: Khaine
+Submitted: 3-Aug-2010
+Checking arch: Gaeius
+QC begun: 26-Aug-2010
+QC completed: 31-Aug-2010
+Project Status: APPROVED
+
+event.c [OK]
+hound.c 
+  Perhaps add property no_possess.
+
+  A: Done.
+
+lhead.c 
+mhead.c 
+rhead.c
+  I think you should have a separate corpse object for the
+  heads, so you avoid "the corpse of Cerberus' left head".
+
+  A: I hooked heads and tail into the limbloss daemon, so that it now 
+     uses a custom corpse as well as changing the long desc of the 
+     hound to reflect what limbs are missing.
+
+shield.c
+  LANGUAGE: "This is the bloody" -> "These are the bloody"
+            "Cerberus's" -> "Cerberus'"
+  In the on_hit_player function, you append 's to a 
+  player's name to form genitive. Using genitive() from
+  I_GRAMMAR provides a more accurate genitive.
+
+  A: Done.
+
+tail.c
+  Separate corpse object for this one too.
+
+  A: Same as for heads.

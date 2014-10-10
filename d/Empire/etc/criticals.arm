@@ -1,0 +1,67 @@
+$N pulls the arm back to avoid serious injury, but drops anything held in that hand in the process.
+You pull the arm back to avoid serious injury, but drop anything held in that hand in the process.@DROP(1)
+#N's opponent pulls the arm back to avoid serious injury, but drops anything held in that hand in the process.
+
+Your blow skins $N's knuckles, painfully but not seriously, causing any object held in the hand to be dropped.
+#N's blow skins your knuckles, painfully but not seriously, causing any object held in the hand to be dropped.@STUN(1)@DROP(1)@WOUND(10)
+#N's blow skins $N's knuckles, painfully but not seriously, causing any object held in the hand to be dropped.
+
+Your blow strikes $N's hand, incapacitating the hand for the next round.
+#N's blow strikes your hand, incapacitating the hand for the next round.@STUN(1)@WOUND(20)
+#N's blow strikes $N's hand, incapacitating the hand for the next round.
+
+Your blow strikes $N's hand, dislocating the wrist.
+#N's blow strikes your hand, dislocating the wrist.@STUN(1)@WOUND(30)
+#N's blow strikes $N's hand, dislocating the wrist.
+
+Your blow strikes $N's hand, shattering the fingers.
+#N's blow strikes your hand, shattering the fingers.@STUN(1)@WOUND(20)
+#N's blow strikes $N's hand, shattering the fingers.
+
+Your blow strikes $N's finger sending it flying in the air for several meters, then drops down like a dead little rag-doll.
+#N's blow strikes your finger sending it flying in the air for several meters, then drops down like a dead rag-doll.@STUN(1)@WOUND(60)@CUT(finger)
+#N's blow strikes $N's finger sending it flying in the air for several meters, then drops down like a dead little rag-doll.
+
+Your blow strikes whatever $N is holding, likely to destroy it completely.
+#N's blow strikes whatever you are holding, likely to destroy it completely.@DROP(-1)
+#N's blow strikes whatever $N is holding, likely to destroy it completely.
+
+Your blow misses $N's head by a fraction of an inch, striking the shoulder and dislocating it.
+#N's blow misses your head by a fraction of an inch, striking the shoulder and dislocating it.@STUN(2)@WOUND(30)
+#N's blow misses $N's head by a fraction of an inch, striking the shoulder and dislocating it.
+
+Your blow opens a deep wound in the arm, cutting through muscle and sinew.
+#N's blow opens a deep wound in the arm, cutting through muscle and sinew.@STUN(2)@WOUND(100)
+#N's blow opens a deep wound in the arm, cutting through muscle and sinew.
+
+There is a sickening crunch as your weapon smashes $N's forearm.
+There is a sickening crunch as #N's weapon smashes your forearm.@STUN(2)@WOUND(70)
+There is a sickening crunch as #N's weapon smashes $N's forearm.
+
+There is a sickening crunch as your weapon mutilates $N's upper arm.
+There is a sickening crunch as #N's weapon mutilates your upper arm.@STUN(3)@WOUND(100)
+There is a sickening crunch as #N's weapon mutilates $N's upper arm.
+
+The target's arm is smashed, and an artery is severed.
+Your arm is smashed, and an artery is severed.@STUN(3)@WOUND(400)
+$N's arm is smashed, and an artery is severed.
+
+$N stares with horror as blood pumps from the mangled stump of the wrist. $N falls unconscious to the ground.
+You stare with horror as blood pumps from the mangled stump of the wrist, then fall unconscious to the ground.@STUN(4)@WOUND(200)@CUT(hand)
+#N's opponent stares with horror as blood pumps from the mangled stump of the wrist. $N falls unconscious to the ground.
+
+Your blow tears off $N's arm at the elbow, splintering bone and mangling flesh. Your opponent collapses.
+#N's blow tears off your arm at the elbow, splintering bone and mangling flesh. You collapse.@STUN(4)@WOUND(400)@CUT(arm)
+#N's blow tears off $N's arm at the elbow, splintering bone and mangling flesh. $N collapses.
+
+Your blow tears off $N's arm at the shoulder crippling $o for life! Your opponent collapses.
+#N's blow tears off your arm at the shoulder crippling you for life! You collapse.@STUN(5)@WOUND(400)@CUT(arm)
+#N's blow tears off $N's arm at the shoulder crippling $o for life! $N collapses.
+
+Your blow destroys $N's shoulder joint almost totally - the arm hangs limply, a mass of tattered and pulpy flesh with protruding fragments of bone. By chance, one of the bone splinters has severed a major artery, and after a fraction of a second $N collapses, with blood pouring out from the ruins of $p shoulder. Death from shock and blood loss is almost instantaneous.
+#N's blow destroys your shoulder joint almost totally - the arm hangs limply, a mass of tattered and pulpy flesh with protruding fragments of bone. By chance, one of the bone splinters has severed a major artery, and after a fraction of a second you collapse, with blood pouring out from the ruins of your shoulder. Death from shock and blood loss is almost instantaneous.@CUT(arm)@DIE
+#N's blow destroys $N's shoulder joint almost totally - the arm hangs limply, a mass of tattered and pulpy flesh with protruding fragments of bone. By chance, one of the bone splinters has severed a major artery, and after a fraction of a second $N collapses, with blood pouring out from the ruins of $p shoulder. Death from shock and blood loss is almost instantaneous.
+
+Your blow smashes through the arm and into the chest, caving in one side of the ribcage. The arm is completely destroyed, and blood showers yourself and $N. Your opponent collapses dying almost instantly from shock and blood loss.
+#N's blow smashes through the arm and into the chest, caving in one side of the ribcage. The arm is completely destroyed, and blood showers yourself and $N. You collapse dying almost instantly from shock and blood loss.@CUT(arm)@DIE
+#N's blow smashes through the arm and into the chest, caving in one side of the ribcage. The arm is completely destroyed. $N collapses dying almost instantly from shock and blood loss.

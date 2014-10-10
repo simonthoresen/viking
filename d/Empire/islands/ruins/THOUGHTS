@@ -1,0 +1,10 @@
+- no daemons for a boss, all tracking is done in the boss itself. to find a boss
+  instance, query the ruinsd.
+
+- shop in altdorf sells a weaponblank for 100 tokens, where you choose at
+  buy-time what shape it has (sword, dagger, mace ...) the shape decides basic
+  damage types.
+
+- weaponblank must be heated in onyxia deep breath (deep breath does
+  all_inventory()->onyxia_deep_breath()). heated blank must be tempered in
+  onyxia's blood. this makes it +200 wc and get all elemental damage types.

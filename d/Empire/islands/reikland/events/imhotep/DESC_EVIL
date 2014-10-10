@@ -1,0 +1,19 @@
+The gear of the heroes that fight imhotep grant a modifier "devotion_evil",
+that contribute to the effectiveness of the gear they drop. Fully equipped, it
+is possible to achieve 100 devotion.
+
+./amulet : 50
+./helmet : 10
+./scythe : 20
+./sword  : 20
+
+The amulet is a devotion-only item that weights alot and adds negative light,
+intended only to occupy an armour slot.
+
+./scythe
+ 20: ===> Round: 424   Damage: 5     Max: 45   Total: 10040  Average: 23.62 
+100: ===> Round: 112   Damage: 31    Max: 45   Total: 3742   Average: 33.12
+
+./sword
+ 20: ===> Round: 304   Damage: 35    Max: 85   Total: 7624   Average: 25.00
+100: ===> Round: 333   Damage: 54    Max: 85   Total: 10032  Average: 30.04 

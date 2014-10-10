@@ -1,0 +1,11 @@
+This island is intended to hold all content ported from /d/Reikland in an effort
+to clean up the Reikland codebase. This initial submission is basically just to
+have it pass through QC before opened. It contains no new mechanics or content,
+it is simply a large open area that holds a lot of critters ported from old
+Reikland.
+
+Currently New Altdorf and Onyxia's Lair are the only connected areas. 
+
+I am aiming to port most of the critters from Reikland in a short while, making
+the wildlife a little more varied. Eventually I will be porting events such as
+barbarian, ent, etc.

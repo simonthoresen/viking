@@ -1,0 +1,8 @@
+You can find the list of known and trainable skills in the skill-room of the
+guild area. Like slivers, skills have prerequisites -- until those prerequisites
+are met, you will not even see such skills as trainable.
+
+Skills act both as prerequisites for most other slivers, as well as directly
+influence the effectiveness of those slivers. E.g. as you raise your
+"Restoration" skill, you will both unlock more restoration spells, as well as
+increase the effectiveness of all restoration spells.

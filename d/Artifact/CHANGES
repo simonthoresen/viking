@@ -1,0 +1,37 @@
+2014-09-25 Khaine
+- Added member_reenters() to ART_MASTER that auto-resumes any suspended
+  physical form that the player might have.
+
+2014-09-23 Khaine
+- Going through all of weapon and sliver to reflect on is_idle() and
+  is_suspended() before affecting the player.
+
+2014-09-22 Khaine
+- Decouple dependencies between soulstone, control, weapon and sliver. All of
+  these are now stand-alone, i.e. there is no direct coupling between all of
+  them. Soulstone knows weapon, and weapon knows player. All else is resolved
+  on query.
+- Added is_idle() and is_suspended() to weapon and sliver.
+- Added get_instance() to ART_C_SOULSTONE
+- Added get_instance() and new_instance() to ART_C_WEAPON
+
+2014-09-10 Khaine
+- Implemented slivers/score_tracker
+- Added (idle) tag to short desc when idle, and (limp) when suspended
+- Clean player on weapon destroy
+
+2014-09-08 Khaine
+- Refactored all printed lists to use EMP_D_LIST
+- Moved shape-selection to smithy, and quirks to furnace.
+- Implemented all island rooms and descs.
+
+2014-08-21 Khaine
+- Added try_join() to ART_MASTER, which is called by
+  /d/Empire/islands/chaos/rooms/P to join the guild.
+- Added ART_CAN_JOIN and ART_CAN_PLAY defines in artifact.h
+
+2014-08-20 Khaine
+- Created ART_D_LOG, which inherits EMP_I_LOGD.
+
+2014-08-01 Khaine
+- Initial version of this file

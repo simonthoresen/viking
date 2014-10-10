@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Level Skill                 Type         Requires
+-------------------------------------------------------------------------------
+  1   Abjuration            Protection   Be protected from X damage
+  1   Conjuration           Summoning    Kill X animals
+  1   Divination            Secrets      Achieve X positive alignment
+  1   Enchantment           Charm        Perform X friendly feelings
+  1   Evocation             Damage       -
+  1   Illusionism           -            Observe X invis spells
+  1   Necromancy            -            Achieve X negative alignment
+  1   Restoration           Healing      -
+  1   Second life           -            Take a X+ hit to Y hp and survive
+  1   Transmutation         Modifiers    Consume X modifiers
+  1   Slash aptitude        -            -
+  5   Blunt aptitude        -            -
+ 10   Chop aptitude         -            -       
+ 15   Pierce aptitude       -            -
+ 20   Cold aptitude         -            -
+ 20   Fire aptitude         -            -
+ 23   Magic aptitude        -            -
+ 26   Electricity aptitude  -            -
+ 29   Acid aptitude         -            -
+ 29   Claw aptitude         Bleed        Physical 100
+ 29   Bite aptitude         Busy, bleed  Physical 100, Claw 100
+ 29   Impact aptitude       Stun         Elemental 100
+ 29   Drain aptitude        -            All types 100
+-------------------------------------------------------------------------------

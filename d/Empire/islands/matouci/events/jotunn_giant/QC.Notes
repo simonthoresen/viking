@@ -1,0 +1,120 @@
+QC of project 463: The Jotunn Giant
+Checking arch: Gaeius
+QC begun: 25-Jun 2010
+QC completed: 31-Aug-2010
+QC status: APPROVED
+
+OVERALL
+Now that I see your plans for the area, it looks like it
+will become a very, very dangerous place, and I'm not sure
+about having yet another lethal area so close to shop. I
+would like you to write up a room that will serve as a 
+warning to be the first room you enter from the east side
+of the forest, with menacing descriptions, and a level-check
+on the west-exit of that room that will give all mortals
+trying to enter the message 
+"Are you sure you absolutely sure you want to continue into
+the forest? It looks really dangerous!", where the player
+has to type in 'yes' to be able to continue. This message
+should only be given to players up to ETERNAL_FIRST level.
+
+COMMENT: added to castle.c so that both entrances asks the
+         player upon their first entry. by saying "yes" 
+         they get a property set that will prevent the 
+         warning from being repeated. i added no level 
+         limit since it goes away after the first time 
+         anyway.
+
+         I have also added a __battack hook to all matouci
+         monsters (std/monster) that will force the player
+         to flee the FIRST time a mob attacks him. That
+         should prevent insta-gibs.
+
+I'd like to see a limit on how many times this event can be
+run in an uptime. An absolute max of two should be
+sufficient to limit the availability of the trunk and the
+ring.
+
+COMMENT: the ring has been made unique, as well as it having
+         a serious drawback.
+
+QC REPLY: I wouldn't call that drawback a serious one, but
+          it will do.
+
+/d/Matouci/events/jotunn_giant/:
+event.c
+  TYPO: squeel -> sqeal
+  Lines 68 and 71: value returned from void function. You
+    need to stop(), then return.
+
+  COMMENT: fixed to "squeal" :-) 
+
+event.h [OK]
+
+giant.c
+  TYPO: "jotunn sinks it's teeth" -> "jotunn sinks its teeth"
+  Instead of using tell_object to deliver a bold message, 
+    use message("hityou",
+  TUNE: Give it a higher regeneration rate: 10+random(50).
+
+  COMMENT: the MT_D_COMBAT->hit_player() method will echo 
+           the damage text in hityou/youhit/other, so the
+           bold text is just to let the player know where
+           the bite came from.
+           regen and typo fixed.
+
+pig.c [OK]
+ring.c 
+
+  TUNE: No ring on VikingMUD is this powerful. Either tune
+    it down, or give it some drawback, like giving the
+    player offhand penalty, or risk losing the grip of his
+    weapon or some sort.
+
+  COMMENT: The ring is now unique, and there is a 5% chance
+           when fighting to remove it and set busy.
+	   
+  QC REPLY: TYPO: "Loose" -> "Lose"
+
+  A: Done.
+
+trunk.c
+
+  TUNE: weight 40, decrease the static weapon bonus to 10.
+    Instead of a static -1 fire each fire beat, make it 
+      1 + random 4 so the duration of the weapon will 
+      effectively be random.
+  Missing property: wood
+  I am unsure of the complete impact this weapon would have
+  on the world, so it is possible we'll need to tune this at
+  a later time.
+
+  COMMENT: property and duration fixed. weight MUST be 30 for
+           it to be possible for a player to pick up without 
+           +str gear.
+  
+  QC REPLY: I don't want it to be possible for a player to 
+            pick up without +str gear. If they want to 
+	    wield it, they need str gear.
+
+  A: Done. But i believe proc chance will be really subpar 
+     with 40 weight. Perhaps we can change proc test from
+  
+     ply->test_weight(random(query_weight())) 
+     to
+     ply->test_weight(2 + random(10))  ?? 
+
+  QC REPLY: I concur.
+
+Other relevant files:
+/d/Matouci/std/:
+blood.c  [OK]
+limbloss.c  [OK]
+stun.c [OK]
+wound.c [OK]
+
+/d/Matouci/std/daemons/:
+combatd.c [OK]
+criticald.c [OK]
+limbd.c [OK]
+

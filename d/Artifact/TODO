@@ -1,0 +1,9 @@
+go through all echos to player, block where non-suspended is required
+(obj is done, check rooms and slivers and std)
+
+
+change island so that guild area becomes a shining light to enter.
+if you are member, go to guild, otherwise go to adv_guild
+change chaos portal to always get you to island when other end is
+closed. if non member you simply have nothing to do. remove all
+no_nothings. let water be accessible.

@@ -1,0 +1,75 @@
+#include "/d/Empire/islands/reikland.h"
+#define P_ELIXIR ("ent_elixir")
+
+inherit I_DRINK;
+
+static void create() {
+    ::create();
+    set_name("elixir");
+    set_short("a cup of greenish elixir");
+    set_long("The elixir in the stone cup is a green substance that looks " +
+             "quite distasteful.");
+    set_info("The Ent elixir will have a positive effect on livings, " +
+             "causing them to grow.\n\n" +
+             "This object is autoloading! It means you can quit with it, " +
+             "and still keep it!");
+    add_id(({ "cup", "ent elixir", "greenish elixir" }));
+    add_item(({ "liquid", "substance", "goo", "green goo" }),
+             "Looks like green goo, smells like sap.");
+    set_weight(2);
+    set_value(0);
+    set_empty_container("cup");
+    set_drop(NO_DROP);
+    add_property(({ "liquid", "stone", "artifact", "tagged" }));
+    add_hook("__bdrink", store_fp("on_bdrink"));
+    add_hook("__drink", store_fp("on_drink"));
+}
+
+static int on_bdrink(object obj) {
+    write("As you put the cup to your lips, you smell a strong odour of " +
+          "sap.\n");
+    if (!objectp(present(RED_C_ELIXIR_FX, this_player()))) {
+        write("However, you don't let this stop you, and you pour down the " +
+              "greenish goo in several swift *gulps*.\n");
+        return 0;
+    }
+    write("However, this time, the smell is just too much for you. You can " +
+          "not force yourself to drink it.\n");
+    say(this_player()->query_name() + " tries but fails to drink a cup full " +
+        "of green goo.\n");
+    return 1;
+}
+
+static void on_drink(object obj) {
+    object ply;
+    if (!objectp(ply = this_player())) {
+        return;
+    }
+    write("It tastes like sap too!\n");
+    make(RED_C_ELIXIR_FX, ply);
+    ply->set_tmp_prop(P_ELIXIR, 1);
+    ply->set_busy_next_round();
+    ply->add_soaked(2000);
+}
+
+public void claim_reward(object ply) {
+    if (!objectp(ply) ||
+        !ply->query_tmp_prop(P_ELIXIR) ||
+        objectp(present(RED_C_ELIXIR_FX, ply)))
+    {
+        return;
+    }
+    make(RED_C_ELIXIR_FX, ply);
+}
+
+public string query_auto_load() {
+    if (query_full() <= 0) {
+	return 0;
+    }
+    return source_file_name() + ":";
+}
+
+public void make_empty_drink() {
+    ::make_empty_drink();
+    set_drop(CAN_DROP);
+}

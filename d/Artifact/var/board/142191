@@ -1,0 +1,6 @@
+Date: Fri Sep 26 17:22:46 2014
+Author: Arrty, level 24
+Thread: Bugs.
+
+From a quick test.  Party bugged completely out with an art in the party.  Party status was not possible to use for either the wielder or the artifact.
+Monsters was not possible to kill.  They died. but did not die.  The death message came twice  per time it was supposed to die. The fight stopped. But the monster was still standing.

@@ -1,0 +1,13 @@
+If there is anything bugging in the Empire and you can not figure out how 
+everything hooks together, then add the Empire wizard commands:
+
+    cmdpath /d/Empire/com/w/
+
+Then do "man empire" and go from there. If you still have to dig through code
+to figure it out, then please add a man page for what you feel is missing. 
+These are text files in 
+
+    /d/Empire/help/
+
+Thanks.
+

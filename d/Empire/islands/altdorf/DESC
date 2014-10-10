@@ -1,0 +1,37 @@
+This island is running on the same library as Matouci, and such the only thing
+that would really need QC would be the content of this directory and it's
+subdirectories. 
+
+However, when creating the content for these rooms I also ported Reikland's
+D_SPAWN daemon into the Empire library. This is now:
+- /d/Empire/daemons/armourd
+- /d/Empire/daemons/containerd
+- /d/Empire/daemons/treasured
+- /d/Empire/daemons/weapond
+
+The enchantment part of Reikland's D_SPAWN has been replaced by Runewaker's
+enchantment daemon, defined as EMP_D_ENCHANT in /d/Empire/empire.h so that
+anyone has easy access to it. The daemon adds a random enchant to an item, based
+on the enchant power given (0 being nothing, 100 being a level 29 enchant). The
+code resides in "/d/Runewaker/daemons/enchantd"
+
+Keep in mind that this QC submission is merely to get the area open, there is no
+dynamic content right now (none of the events are enabled). I will submit events
+one at a time following the opening of the area.
+
+I wish to have this room hooked into the jetty in larstown by an "altdorf" exit,
+similar to how the docks in altdorf has a "larstown" exit.
+
+ROOMS:
+- ( 9,57) Dalbran Fellhammer's [A]rmour Smithy
+- (10,46) Reik-Talabec Trading [C]ompany
+- (16,40) The Niederhafen [D]ocks
+- (19,19) Association of [F]inanciers and Moneylenders
+- (27,25) Imperial [G]uard barracks and armoury
+- (21,18) The People's [H]all
+- (29,40) Hart's [L]odge
+- (25,36) H[O]spice Priory of Shallya
+- ( 5,36) The Imperial [P]ostal Service
+- (10,34) Krank's Potions and [R]emedies
+- (24,28) Great [T]emple and Cathedral of Sigmar
+- ( 7,50) Tots Blatter's [W]eapon Smithy

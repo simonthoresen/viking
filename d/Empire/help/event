@@ -1,0 +1,28 @@
+NAME
+    
+    EMP_I_EVENT - base object for island events
+
+DESCRIPTION
+
+    To create an event you must first create a directory for the event inside
+    the events-directory of the parent island. Inside this directory you must
+    put all the event content, as well as a file called "event.c" which
+    inherits EMP_I_EVENT.
+
+    void set_player_msg(string val):
+
+    void set_room_msg(string val):
+
+    void set_nearby_msg(string val):
+
+    void set_nearby_range(int val):
+
+    void set_island_msg(string val):
+
+    void set_world_msg(string val):
+
+    void add_event_object(string val):
+
+    Once the event has passed QC it is enabled by putting a file called
+    "ENABLED" inside the event's directory, and reloading the island.
+

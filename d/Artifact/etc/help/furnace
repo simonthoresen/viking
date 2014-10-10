@@ -1,0 +1,11 @@
+The furnace is where you create your physical form. Here you will be presented
+by a list of available slivers. Slivers are the building blocks of a weapon. A
+sliver either grants or requires slots. You can see how many slots are available
+to you by typing "score".
+
+While in the furnace, you use the command "list" to see what slivers you may
+choose from. First, you choose a shape sliver, and then you add any number of
+quirk slivers. Once you are satisified, you "complete" the construction.
+
+With you in the furnace is the weapon itself. This allows you to look at your
+own form as you are constructing it.

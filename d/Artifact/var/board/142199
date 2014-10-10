@@ -1,0 +1,31 @@
+Date: Sat Sep 27 16:48:01 2014
+Author: Zaxxonblade, level 5
+Thread: Typos
+
+help slots
+   "A weapon starts out with $baseslots slots..."
+   -> Should this be a variable/constant/define reference?
+
+help inventory
+   -> Needs changed to the same format as the other help files ("TITLE",
+      "DESCRIPTION" and "SEE ALSO"). There is inconsistency in number of spaces
+      after a period (0-2).
+
+help <any topic that only outputs one line>
+   -> This might be my client's problem, but I'll report it anyway. My prompt
+       color changes no NONE when I run help on any of the topics like
+       "artchat", "artwho", "bags", "cast". This does not happen when I do a
+       random help like f.ex. 'help asd' and still receive only one line of
+       output ("Not found, doing a keyword search for "asd":".
+
+help score
+   -> This topic should probably be included for Artifacts since the options
+      (-s, -l and -L) are not available to us.
+
+help machete
+   -> "His is almost half a meter long." should be "He is almost..."
+
+help eq
+   -> Messy and doesn't make much sense. Make it the same layout as (most)
+      other Artifact help topics? I suggest that the "SEE ALSO" sections refer
+      to the 'consumed' command.

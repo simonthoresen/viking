@@ -1,0 +1,13 @@
+File: /d/Empire/islands/fort/obj/treasure
+QuestName: treasure_of_fort_dumbarton
+QuestShort: The Treasure of Fort Dumbarton
+QuestHint:
+@Rumor has it that there is a secret treasure chest buried somewhere outside
+@Fort Dumbarton in New Reikland. The chest is said to be locked by separate
+@locks for each chieftain of Dumbarton.
+@
+@Not only must you figure out where the treasure is buried, but you also have
+@to beat the gauntlet and kill all four chieftains.
+@
+@NOTE! This is a VERY high-level challenge.
+QP: 1000

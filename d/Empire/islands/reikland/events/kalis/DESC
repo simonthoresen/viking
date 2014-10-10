@@ -1,0 +1,47 @@
+Damage over time:                       Damage histogram:
+
+2028 |       ##   ####        ##          16 |#
+     |       ##   ####        ##             |#
+     |       ##   ####        ##             |#
+     |       ##   ####        ##             |#
+     |       ##   ####        ##             |#
+     |       ##   ####        ##             |##
+     |       ##   ####        ##             |##
+     |       ##   ####        ##             |##                             #
+     |       ##   ####        ##   ##        |###                            #
+     |################################       |####                           #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              30       0                            2028
+
+Hit count over time:                    Hit count histogram:
+
+   4 |                            ##      14 |             #######
+     |                            ##         |             #######
+     |            ##  ## #####    ####       |             #######
+     |            ##  ## #####    ####       |             #######
+     |            ##  ## #####    ####       |       #############
+     | ### ## ################## #####       |       ###################
+     | ### ## ################## #####       |       ###################
+     |################################       |       ###################
+     |################################       |       ###################
+     |################################       |       #########################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              30       0                               4
+
+===> Round: 30    Damage: 256   Max: 2000  Total: 10004  Average: 322.71
+===> Round: 30    Hits:   3     Max: 4    Total: 64     Average: 2.06
+===> Round: 30    Busy:   2     Max: 2    Total: 5      Average: 0.16
+
+This is one of three heroes that fought Imhotep eons ago. He has returned from
+the dead because Imhotep has returned. He has 50% chance of using one of three
+abilities every round:
+
+1) if opponent is more good than ALIGN_GOOD, that opponent will loose 100
+alignment.
+
+2) if opponent is more evil than ALIGN_EVIL, that opponent will be hit for
+33-66 fire damage.
+
+3) opponent is hit for 20% of max hp magic damage.
+
+See ../imhotep/DESC_GOOD for reward.

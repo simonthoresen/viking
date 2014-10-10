@@ -1,0 +1,8 @@
+This encounter will spawn a portal that lasts for 1 hour. This portal
+will keep spawning critters from the chaos island until there are at
+least 20 critters alive. The invading critters will wander around the
+roads of altdorf on random and attack all other livings.
+
+The portal itself can be entered, teleporting the player into the
+chaos island. Only inside that island can one trigger Angron as a
+separate event.

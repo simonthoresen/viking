@@ -1,0 +1,102 @@
+Damage over time:                       Damage histogram:
+                                        
+ 490 |                               #     5 |   #         #                  
+     |        ##                     #       |   #         #                  
+     |        ##          #       ####       |   #      # ## #                
+     |        ##  #       #   #   ####       |   #      # ## #                
+     |       #######      #  ##   ####       |   ##  # ## ## # #              
+     | ##    #######  ##### ###  #####       |   ##  # ## ## # #              
+     | ##   ######### ################       |   ### # ##### # #  #           
+     | ## ############################       |   ### # ##### # #  #           
+     |################################       |# ############ ###  ###### #   #
+     |################################       |# ############ ###  ###### #   #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              52       0                             490
+
+Hit count over time:                    Hit count histogram:
+                                        
+   6 |                               #    29 |              #####             
+     |        ##       ###           #       |              #####             
+     |        ##       ###           #       |              #####             
+     |        ##  # #  ######   ######       |              #####             
+     |        ##  # #  ######   ######       |              #####             
+     | ###############################       |              #####             
+     | ###############################       |              #########         
+     | ###############################       |              #########         
+     |################################       |          ##################    
+     |################################       |     ###########################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              52       0                               6
+
+===> Round: 52    Damage: 169   Max: 244  Total: 10006  Average: 188.79
+===> Round: 52    Hits:   1     Max: 6    Total: 170    Average: 3.21
+===> Round: 52    Busy:   0     Max: 2    Total: 7      Average: 0.13
+
+The intention of this encounter was to try to make a mob whose special abilities
+were all given by its equipment, in such a way that anyone using the same gear
+could do all those same things. The mob cheats (of course), by having a +9 blood
+tick every heart beat (see sword mechanics below), and it has an inherit +69 on
+wc for any weapon it wields.
+
+Dranosh will attack a random target each round, making it hard to properly tank
+this encounter.
+
+Dranosh w/sword vs default hurtme:
+===> Round: 58  Damage: 178  Total: 9860  Average: 167.12  Max: 284
+
+Dranosh w/axe vs default hurtme:
+===> Round: 91  Damage: 88  Total: 9979  Average: 108.47  Max: 77
+
+SWORD OF THE DEATHBRINGER
+
+The sword is a 10 weight 2-hander with +6 str, -2 dex, -2 con, -2 int. The
+sword has an internal blood-counter which increases its wc, and which can be
+used to cast spells. Every hit it inflicts generates 1 blood. Every heart-beat
+while the wielder is NOT in combat, the blood count decreases by 1. The blood
+count can not decrease below 0 (that will isntead drain the wielder of the
+equivalent hp), and it can not increase beyond 100 (that instead heals the
+wielder). 75% of the current blood count is added to the sword wc.
+
+Finally, whenever the wielder drops below 30% hp he will go into a furied state,
+doing 2x attacks every round until hp is back above 30%.
+
+All 29 stats w/sword (at 100 blood) vs default hurtme:
+===> Round:345  Damage:11   Total:10031  Average:29.075362  Max:64  
+
+Spells offered by the sword are:
+
+- Rune of Blood    ( 20 blood, 100 sp)
+  30 second curse that heals the caster for all damage inflicted on the victim.
+
+- Boiling Blood    ( 40 blood, 150 sp)
+  30 second curse that inflicts 25-50 magic damage every 2 seconds.  
+
+- Blood Nova       ( 60 blood, 200 sp)
+  Inflicts 70-150 magic damage to every attacker in the room.  
+
+- Call Blood Beast ( 80 blood, 279 sp)
+  Summons a level 19 spirit that attacks the current enemy. The spirit is
+  destroyed after 30 seconds. The spirit will also not steal any kills. Every
+  hit done by the spirit will increase the blood of the weapon.
+
+- Mark of Death    (100 blood, 362 sp)
+  30 second curse that causes all damage done to the victim to double (a
+  __hit_player hook that returns the damage value). If the victim dies while
+  cursed, the caster is fully healed.
+
+
+AXE OF THE DEATHBRINGER
+
+The axe is the non-unique alternative to the sword. It is +3 str, -1 dex, -1 con
+and -1 int. It has the same base mechanics as the swords, but the spells are
+just a sub-set of what the sword has (and at higher cost). The fury mechanics
+triggers at 20% hp. 50% of the current blood count is added to the axe wc.
+
+All 29 stats w/axe (at 100 blood) vs default hurtme:
+===> Round:488  Damage:18   Total:10043  Average:20.579918  Max:43
+
+Spells offered by the axe are:
+
+- Boiling Blood    ( 50 blood, 150 sp)
+- Call Blood Beast (100 blood, 279 sp)
+

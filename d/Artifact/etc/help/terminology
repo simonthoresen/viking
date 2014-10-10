@@ -1,0 +1,37 @@
+Furnace -- The room in which you compose weapon.
+
+Glyph -- A permanent sliver that your owner inscribes on weapon. These are
+dropped at random, and can be traded among owners.
+
+Owner -- Whoever is currently carrying weapon.
+
+Player -- Your etheral form, the complement of weapon.
+
+Quest -- Quests are unlocked as their requirements are met. Quests are often
+prerequisites of skills and spells, and they unlock titles.
+
+Quirk -- A sliver chosen while in the furnace. Quirks with positive effects
+require slots, whereas quirks with negative effects grant slots.
+
+Shape -- A sliver that determines weapon type and slot allocation. As opposed to
+other slivers that require slots, a shape mostly grants slots.
+
+Skill -- Trained in the skill-room of the guild. Skills are prerequisites of
+slivers, and skill level determines the effectiveness of those slivers.  Skills
+may have their own set of prerequisites similar to slivers.
+
+Sliver -- Any of glyph, quirk, shape, or spell. A sliver commonly has a set of
+prerequisites on player level, stat, skill or quest.
+
+Slot -- A typed unit of space occupied by a sliver. Most slivers require one or
+more slots of the sliver's type (e.g. quirks require "quirk" slots).
+
+Spell -- A temporary sliver that you cast on weapon. Spells are trained in the
+spell-room of the guild, and cast using the "cast" command.
+
+Title -- Rewarded by unlocking quests. At level 20 you are given the ability to
+change your title to any of the unlocked titles.
+
+User -- Whoever is currently wielding weapon.
+
+Weapon -- Your physical form, the complement of player, created in the furnace.

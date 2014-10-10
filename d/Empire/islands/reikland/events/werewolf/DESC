@@ -1,0 +1,46 @@
+Damage over time:                       Damage histogram:
+                                        
+ 112 |                        #           24 |         #                      
+     |                       ##     #        |         # #                    
+     |               #       ###    #        |        #####                   
+     |               #   #   #### # ##       |        #####                   
+     |  ###  ## ## ### ##### ###### ##       |       ######## #               
+     | ##### ######### ###############       |      ######### ##              
+     |################################       |   # #############              
+     |################################       | ###################            
+     |################################       | ####################           
+     |################################       | #################### # ####   #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             243       0                             112
+
+Hit count over time:                    Hit count histogram:
+                                        
+   4 |                   #     #         162 |             #######            
+     |                   #     #             |             #######            
+     |       #  ###### ##########  ###       |             #######            
+     |       #  ###### ##########  ###       |             #######            
+     |       #  ###### ##########  ###       |             #######            
+     |################################       |             #######            
+     |################################       |             #############      
+     |################################       |             #############      
+     |################################       |             #############      
+     |################################       |       #########################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             243       0                               4
+
+===> Round: 243   Damage: 548   Max: 515  Total: 10024  Average: 41.08
+===> Round: 243   Hits:   2     Max: 4    Total: 539    Average: 2.21
+===> Round: 243   Busy:   0     Max: 3    Total: 21     Average: 0.09
+
+The werewolf has a __bkill hook that gives it a 50% chance of infecting a player
+instead of killing it. If infected, the player will become a werewolf whenever
+he enters combat, and calm down when leaving combat. As a werewolf one can not
+wear any armour, wield no weapons and use no food or drinks. However, you get
++11 str, dex and con, +5 ac, but -5 int. In addition you get 1-3 attacks each
+turn (based on level), doing random(str/2) + random(dex/2) claw damage.
+
+At level 29 vs hurtme:
+
+===> Round: 174   Damage: 47    Max: 37   Total: 10017  Average: 57.24
+===> Round: 174   Hits:   3     Max: 3    Total: 522    Average: 2.98
+===> Round: 174   Busy:   0     Max: 0    Total: 0      Average: 0.00

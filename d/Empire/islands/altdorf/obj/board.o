@@ -1,0 +1,15 @@
+short_desc "a board nailed to the wall"
+long_desc "empire board\n"
+ids ([3|"a board nailed to the wall":1,"board":1,"empire board":1,])
+name "empire board"
+m_property ([1|"board":1,])
+triggers ([13|"catchup":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"crosspost":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"delete":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"edit":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"followup":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"join":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"list":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"mread":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"nuke":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"read":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"stat":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"threads":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),"write":({4|"#->#",0,"/d/Empire/islands/altdorf/obj/board#11412","command",}),])
+bits ""
+default_config ([2|"bits":"0","color":([9|"author":"%^GREEN%^","date":"%^MAGENTA%^","eoc":"%^END%^","headline":"%^INVERSE%^","level":"%^BLUE%^","mark":"%^BOLD%^","nr":"%^YELLOW%^","subject":"%^CYAN%^","unread":"%^RED%^",]),])
+note_info ({2|({9|137719,({5|137718,"khaine",40,1290086751,"Foo",}),({5|137833,"membrane",9,1291383818,"Awesome",}),({5|137835,"fruffen",14,1291454721,"Re: Awesome",}),({5|137863,"fruffen",19,1291788220,"First :P",}),({5|138637,"tamlin",20,1299807853,"Re: First :P",}),({5|138956,"oof",29,1305470422,"Did someone utter Foo?",}),({5|138959,"khaine",45,1305571276,"Re: Did someone utter Foo?",}),({5|139814,"grrrunt",26,1324161943,"Re: Khaine",}),}),({7|140193,({5|140192,"trouble",29,1342464887,"Onyxia killed.",}),({5|141670,"stoned",29,1386367159,"Re: Onyxia killed.",}),({5|141878,"stoned",29,1395556547,"Re: Stoned",}),({5|141904,"stoned",29,1399396030,"Re: Stoned",}),({5|141956,"stoned",29,1405797053,"Onyxia",}),({5|142187,"stoned",29,1411725971,"Onyxia",}),}),})
+number_of_threads 2
+number_of_notes 14
+board_id 258
+last_note_id 142187
+short_id "???"
+max_notes_pr_thread 80

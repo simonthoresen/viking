@@ -1,0 +1,20 @@
+Terminology:
+player  - the player object of the guild member
+control - the virtual room in which the player object sits
+weapon  - the weapon object attached to the control room
+room    - the base room of the weapon object
+owner   - the living that is currently carrying the weapon
+user    - the living that is currently wielding the weapon
+
+
+Pointer ownership:
+soulstone = RT_MASTER->query_soulstone(player)
+weapon    = soulstone->query_weapon();
+control   = weapon->query_control();
+
+
+Destruction order:
+player destroy    -> soulstone destroy
+soulstone destroy -> weapon destroy
+weapon destroy    -> notify player, control destroy
+control destroy   -> move player to smithy

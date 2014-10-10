@@ -1,0 +1,45 @@
+@hidden
+-------------------------------------------------------------------------------
+QUEST NAME           TRACKER
+-------------------------------------------------------------------------------
+<dtype>_aptitude_0   rooms/skills
+<dtype>_aptitude_x   rooms/skills
+abjuration_0         slivers/atoms/quest_tracker
+abjuration_x         rooms/skills
+aggressive_x         slivers/atoms/quest_tracker
+armour_x             slivers/atoms/quest_tracker
+cast_x               std/spell_sliver
+con_x                slivers/atoms/quest_tracker
+conjuration_0        slivers/atoms/quest_tracker
+conjuration_x        rooms/skills
+dex_x                slivers/atoms/quest_tracker
+die_x                slivers/atoms/quest_tracker
+divination_0         slivers/atoms/quest_tracker
+divination_x         rooms/skills
+drink_x              slivers/atoms/quest_tracker
+eat_x                slivers/atoms/quest_tracker
+enchantment_0        slivers/atoms/quest_tracker
+enchantment_x        rooms/skills
+evocation_x          rooms/skills
+furnace_x            rooms/furnace
+friendly_x           slivers/atoms/quest_tracker
+glyph_x              std/glyph_sliver
+help_guild           etc/help/guild
+illusionism_0        slivers/atoms/quest_tracker
+illusionism_x        rooms/skills
+int_x                slivers/atoms/quest_tracker
+kill_x               slivers/atoms/quest_tracker
+necromancy_0         slivers/atoms/quest_tracker
+necromancy_x         rooms/skills
+noise_x              slivers/atoms/quest_tracker
+restoration_x        rooms/skills
+second_life_0        slivers/atoms/quest_tracker
+second_life_x        slivers/atoms/second_life
+str_x                slivers/atoms/quest_tracker
+touching_x           slivers/atoms/quest_tracker
+spell_x              rooms/spells
+transmutation_0      slivers/atoms/quest_tracker
+transmutation_x      rooms/skills
+user_die_x           slivers/atoms/quest_tracker
+weapon_x             slivers/atoms/quest_tracker
+-------------------------------------------------------------------------------

@@ -1,0 +1,118 @@
+MONSTERS
+
+The event starts of with spawning Gormok. A fairly straight-forward
+tank-and-spank mob. It has a fun special where it coughs up a very fragile
+baneling that will explode and deal area damage unless killed within 2 rounds.
+
+GORMOK
+
+Damage over time:                       Damage histogram:
+                                        
+ 277 |    #      #                  ##    22 | # #                            
+     |    #      #                  ##       | # #                            
+     |    ##     #                # ##       | # #                            
+     |   ###   ###                # ##       | ####                           
+     |   ###   ###              # # ##       | #####                          
+     |   ###   ###   #  #       # ####       |#######                         
+     |# ##### ###### #  ## ##   # ####       |########    #                   
+     |# ##### ########  #####   ######       |########  # #  #                
+     |################################       |######## ##### #                
+     |################################       |######################  #   ####
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             159       0                             277
+
+Hit count over time:                    Hit count histogram:
+                                        
+   4 |     #                              68 |             #######            
+     |     #                                 |       #############            
+     |   #### ########  ### #   ### ##       |       #############            
+     |   #### ########  ### #   ### ##       |       #############            
+     |   #### ########  ### #   ### ##       |       #############            
+     |####### ######## ####### #######       |       ###################      
+     |####### ######## ####### #######       |       ###################      
+     |################################       |       ###################      
+     |################################       |       ###################      
+     |################################       |################################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             159       0                               4
+
+===> Round: 159   Damage: 78    Max: 233  Total: 10016  Average: 62.60
+===> Round: 159   Hits:   1     Max: 4    Total: 288    Average: 1.80
+===> Round: 159   Busy:   2     Max: 2    Total: 16     Average: 0.10
+
+Once Gormok is slain, Acidmaw and Dreadscale spawn. These are serpents that
+together offer quite the challenge. When one serpent is killed, the
+special-attack damage of the other increases by 50%. 
+
+Acidmaw has a fairly weak hit, but it will paralyze the main target very
+frequently, as well as paralyzing a random target every now and then. As can be
+seen from hurtme's reports, there are periods where the tank can be chain-
+paralyzed. If you compare the below reports, it can be seen that Acidmaw causes
+paralyzes almost 2/3 of the time.
+
+While Acidmaw's role is to basically remove one player from combat and be an
+annoyance for the oter party members, Dreadscale is the damage dealer. Very
+frequently Dreadscale will spray every attacker with a damage-over-time fire
+liquid, but it will also deal additional direct-damage to the tank. The fire
+damage is cumulative, so Dreadscale must be killed quickly.
+
+When acting together, these two will pose quite the challenge.
+
+
+ACIDMAW AND DREADSCALE
+
+Damage over time:                       Damage histogram:
+                                        
+ 621 |                          ##   #     3 |          #    ##               
+     |                          #### #       |          #    ##               
+     |                        ###### #       |          #    ##               
+     |                       #########       | # #    # ##   #### #  #        
+     |             ## ##### ##########       | # #    # ##   #### #  #        
+     |       ##    ###################       | # #    # ##   #### #  #        
+     |      ##########################       | # #  # ########### ## #    ## #
+     |   #############################       | # #  # ########### ## #    ## #
+     | ###############################       | # #  # ########### ## #    ## #
+     |################################       | # #  # ########### ## #    ## #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              34       0                             621
+
+Hit count over time:                    Hit count histogram:
+                                        
+   6 |       ##  ### # ### ## ####  ##    14 |                       #####    
+     |  ## ######################## ##       |                       #####    
+     |  ## ######################## ##       |                       #########
+     |  ##############################       |                       #########
+     |  ##############################       |                       #########
+     |  ##############################       |                   #############
+     |################################       |                   #############
+     |################################       |          ####     #############
+     |################################       |          ####     #############
+     |################################       |          ######################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              34       0                               6
+
+===> Round: 34    Damage: 196   Max: 473  Total: 10005  Average: 285.86
+===> Round: 34    Hits:   2     Max: 6    Total: 165    Average: 4.71
+===> Round: 34    Busy:   1     Max: 6    Total: 20     Average: 0.57
+
+
+REWARDS 
+
+Once beaten this encounter yields an armoured belt and a special pair of metal
+gloves. The belt has 4 ac and +2 con. Its weight is 3, and it has a value of
+2222, so it should both take up valuable inventory space, but also cost a
+little extra to repair.
+
+The gloves are +2 str, but if worn without wielding any weapon or wearing a
+shield, they will spawn and force-wield a pair of fist weapons. These weapons
+give +1 dex each, and have 0 weight. During combat, the weapons may proc both
+the fire of Dreadscale and the toxin of Acidmaw. Average damage is ~42.29 with
+procs, and ~33.76 if no_special_attack is set. About 1 in 10 attack is blocked
+due to the toxin effect.
+
+The gloves are quite awesome, but presumably this is ok as they occupy both
+glove, shield, left and right hand slots to work. Furthermore, whenever the
+gloves are removed, the weapons are destroyed, causing any enchantment to wear
+off.
+
+===> Round: 236  Damage: 14  Total: 10023  Average: 42.29  Max: 47

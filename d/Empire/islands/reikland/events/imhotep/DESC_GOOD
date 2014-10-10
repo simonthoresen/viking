@@ -1,0 +1,31 @@
+The gear of the heroes that fight imhotep grant a modifier "devotion_good",
+that contribute to the effectiveness of the gear they drop. Fully equipped, it
+is possible to achieve 100 devotion.
+
+None of the items can be equipped if the user has less than ALIGN_GOOD
+alignment. And the weapons will always miss monsters with better alignment than
+the wielder.
+
+../akol/sword   : 20
+../akol/helmet  : 20
+../kaleb/sword  : 20
+../kaleb/ring   : 20
+../kaleb/amulet : 20
+../kalis/staff  : 20
+../kalis/book   : 20
+
+Akol's sword (left hand):
+ 20: ===> Round: 145   Damage: 17    Max: 31   Total: 2508   Average: 17.18
+100: ===> Round: 439   Damage: 4     Max: 30   Total: 10041  Average: 22.82
+     
+Kaleb's sword (right hand):
+ 20: ===> Round: 220   Damage: 34    Max: 101  Total: 5214   Average: 23.59
+100: ===> Round: 221   Damage: 3     Max: 66   Total: 5876   Average: 26.47
+
+Kalis's book (left hand):
+ 20: ===> Round: 201   Damage: 0     Max: 79   Total: 3096   Average: 15.33
+100: ===> Round: 487   Damage: 56    Max: 118  Total: 10046  Average: 20.59
+
+Kalis's staff (right hand):
+ 20: ===> Round: 505   Damage: 3     Max: 39   Total: 10047  Average: 19.86
+100: ===> Round: 136   Damage: 20    Max: 38   Total: 3568   Average: 26.04

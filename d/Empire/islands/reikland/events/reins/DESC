@@ -1,0 +1,9 @@
+This event creates 2 random mobs from /room/monster/ and lets one mount the
+other by using a set of reins that are dropped when the rider is killed. Those
+reins allow the player to mount any mob that is a) lower level than the player,
+and b) not more than level 5.
+
+When mounted, the player gets his short-desc changed to include the mount he is
+riding, he gets a different min/mout, and he is assisted in combat by the mount.
+
+This should be great fun, but really not give much benefit to anyone.

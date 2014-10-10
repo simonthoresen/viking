@@ -1,0 +1,34 @@
+This monster will wear_out anything it touches or hits it. It should be bloody
+hard to beat, since you will be loosing all metal items you are carrying. I am
+not really sure how anyone would go about defeating this mob. It drops a unique
+sword.
+      
+The sword 'tyrfing' uses the critical damage system in std/daemons/criticald.
+If a hit scores high enough damage in "__damage_dealt", it will inflict a
+critical whose severity is based on the shape of the mob being fought. This
+means that the less hp the monster has, the more damage the critical is likely
+to do.
+
+The sword is cursed and will randomly inflict a VERY bad critical on its
+wielder. The chance of this happening increases for every heart beat where it
+does not. The curse will wear off once the sword has killed its owner 3 times.
+
+Part of this encounter is the introduction of the following mechanics:
+- /d/Matouci/std/daemons/criticald.c
+- /d/Matouci/std/blood.c
+- /d/Matouci/std/limbloss.c
+- /d/Matouci/std/wound.c
+
+To try fighting rusty, go to "/players/khaine/prison" and type "equip". Then
+clone rusty. This will give you a chance to fight rusty with a full set of metal
+gear.
+
+I equipped a default hurtme, and after 76 rounds all pieces of armour were
+gone. It reported the following:
+
+Round:76  Damage:17   Total:2642  Average:34.763157  Max:83
+
+I wielded the sword with 29 str and 29 dex, and fought a default hurtme:
+
+===> Round:420  Damage:154   Total:10007  Average:23.82619  Max:137  
+

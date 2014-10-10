@@ -1,0 +1,67 @@
+QC of project 462: The Horseman's Reins
+QC begun: 2010 Jun 13
+Checking arch: Gaeius
+QC Completed: 2010 Jun 15
+
+COMMENTS
+Not much to pick on here. A couple of thoughts, though:
+
+When riding, the short desc of the mount that is appended
+to the short desc of the rider does look a tad silly when
+a capitalized article is present. 
+Example: Gaeius is riding A wolf.
+A simple solution would be to just lower_case the stored
+_short desc, but then again, that would present problems
+when mounting an NPC with a specific name, like Erik.
+
+RESPONSE: yeah, I tried different things, but none worked 
+          out very well. Then again, capitalized short 
+          descs like "A wolf" make composite room descs  
+          look stupid already. 
+
+FROM QC: I agree, which is precisely why QC has a policy of
+	 not accepting capitalization of any other short
+	 descs than actual names. That's the way I was 
+	 taught by Caveral when he QCed my things when I
+	 was a wizard, and have since had it as a policy.
+	 We can live with a few weird descriptions, I think.
+
+Another thought is that I find it a tad silly that one can
+ride bipeds and quadripeds indiscriminately. But then again,
+when has silly stopped anything here on Viking? If there's
+a good and simple way of letting the reins be selective to
+monsters that have more than two legs, and still retain the
+flexibility and simplicity of the event, it would be good.
+If not, then this will do. So long as it's only lower level
+creatures that can be mounted, then it won't have too much
+of an effect on the overall gameplay.
+
+RESPONSE: indeed, but I couldn't find an appropriate property, 
+          and i didn't want to start string-searching for 
+          humanoid traits in name and short
+
+FROM QC: I was thinking more along the lines of checking 
+	 ids and descs for known ridables. But given that
+	 one can only ride low level creatures, I don't 
+	 see the problem with a little more silliness.
+
+One thing I do worry about, however, is the possibility
+that someone will abuse the reins to remove key NPCs from
+areas and thus fiddling with area mechanics. There are two
+things I'd like you to do to try and limit such instances:
+
+  1. Make a check for the no_special property when mounting.
+  2. Log who mounts what(filename) and where(filename)
+
+so we can prevent and monitor. Also write the logging a
+similar logging procedure for dismounting as well, but do
+not activate it yet, keeping it in backup in case it proves
+necessary.
+
+RESPONSE: done. checking no_special in mob and environment.
+          can also not dismount in no_special room. 
+          now logging to log/reins
+
+FROM QC: Excellent. We'll keep monitoring its use for a 
+	 while, and see if someone uses the reins to get to
+	 places they are not supposed to.

@@ -1,0 +1,19 @@
+QC of project 464: The Rust Monster
+Creator: Khaine
+Checking arch: Gaeius
+QC begun: 5-Jul-2010
+QC completed: 31-Aug-2010
+QC status: APPROVED
+
+In general a good little monster that provides some fairly
+new and unique challenges for players. Fix the comments
+below and we can release.
+
+event.c [OK]
+rusty.c [OK]
+tyrfing.c
+  I'd like to see the __remove hook being used so that as
+  long as the sword is cursed, the player cannot unwield
+  it. 
+
+  A: Done.

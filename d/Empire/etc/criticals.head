@@ -1,0 +1,67 @@
+$N barely avoids most of your blow to $p head with a wild maneuver, but seems to have lost direction and have to reorient $oself.
+You barely manage to avoid most of #N's blow against your head with a wild maneuver. But where is #r now?@STUN(1)
+$N barely avoids most of #N's blow to $p head with a wild maneuver, but seems to have lost direction and have to reorient $oself.
+
+A glancing blows stuns $N.
+A glancing blows stuns you.@STUN(1)@WOUND(10)
+A glancing blows stuns $N.
+
+Your blow stuns $N.
+#N's blow stuns you.@STUN(1)@WOUND(20)
+#N's blow stuns $N.
+
+Your blow stuns $N seriously.
+#N's blow stuns you seriously.@STUN(1)@WOUND(20)
+#N's blow stuns $N seriously.
+
+$N is knocked down and dazed.
+You are knocked down and dazed.@STUN(2)@WOUND(30)
+$N is knocked down and dazed.
+
+$N ducks as your weapon whistles past the side of $p head, saving $p life, but losing the tip of one ear, which is torn off.
+You duck as #N's weapon whistles past the side of your head, saving your life, but losing the tip of one ear, which is torn off.@STUN(1)@WOUND(50)
+#N's opponent ducks as #N's weapon whistles past the side of $p head, saving $p life, but losing the tip of one ear, which is torn off.
+
+$N rears as your weapon whistles in front of $p face, saving $p life, but losing the tip of the nose, which is torn off.
+You back up as #N's weapon whistles in front your face, saving your life, but losing the tip of your nose, which is torn off. Your feel a hot sensation flowing down your face.@STUN(1)@WOUND(70)
+#N's rears as #N's weapon whistles in front of $p face, saving $p life, but losing the tip of the nose, which is torn off.
+
+Your blow strikes $N's jaw, breaking jawbone and causing the loss of several teeth. $N starts to spit blood and teeth.
+#N's blow strikes your jaw, breaking jawbone and causing the loss of several teeth. You start to spit blood and teeth.@STUN(2)@WOUND(100)
+#N's blow strikes $N's jaw, breaking jawbone and causing the loss of several teeth. $N starts to spit blood and teeth.
+
+Your blow opens a flesh wound in $N's scalp - beneath any helmet. Scalp wounds are notorious for bleeding, and blood flows down into $N's eyes.
+#N's blow opens a flesh wound in your scalp - beneath any helmet. Scalp wounds are notorious for bleeding, and blood flows down into your eyes.@STUN(1)@WOUND(250)
+#N's blow opens a flesh wound in $N's scalp - beneath any helmet. Scalp wounds are notorious for bleeding, and blood flows down into $N's eyes.
+
+Your blow destroyes one of $N's eyes, blood flowing from the remains.
+#N's blow destroyes one of your eyes, blood flowing from the remains.@STUN(2)@WOUND(140)@CUT(eye)
+#N's blow destroyes one of $N's eyes, blood flowing from the remains.
+
+$N is concussed.
+You are concussed.@STUN(3)@WOUND(100)
+$N is concussed.
+
+$N is severely concussed.
+You are severely concussed.@STUN(4)@WOUND(150)
+$N is severely concussed.
+
+Your blow ruptures $N's carotid artery, and both of you are drenched in a fountain of blood. $N collapses.
+#N's blow ruptures your carotid artery, and both of you are drenched in a fountain of blood. You collapse.@STUN(5)@WOUND(1000)
+#N's blow ruptures $N's carotid artery. $N collapses.
+
+Your blow strikes the point of $N's jaw, forcing the jawbone upwards and into the lower part of the brain. Your opponent collapses.
+#N's blow strikes the point of your jaw, forcing the jawbone upwards and into the lower part of the brain. Everything turns dark. Then you hear a faint inner voice: "Stay away from the light!".@STUN(12)@WOUND(300)
+#N's blow strikes the point of $N's jaw, forcing the jawbone upwards and into the lower part of the brain. $N collapses, dying unless aided.
+
+Your blow hits the neck, smashing the vertebrae. $N falls to the ground, twitches for a couple of seconds, and then lays still.
+#N's blow hits the neck, smashing the vertebrae. You fall to the ground, twitch for a couple of seconds, and then lay still.@DIE
+#N's blow hits the neck, smashing the vertebrae. $N falls to the ground, twitches for a couple of seconds, and then lays still.
+
+Your blow shatters $N's skull. Death is instantaneous.
+#N's blow shatters your skull. Death is instantaneous.@DIE
+#N's blow shatters $N's skull. Death is instantaneous.
+
+$N's head flies off in a random direction, landing several feet away.
+Your head flies off in a random direction, landing several feet away.@CUT(head)@DIE
+$N's head flies off in a random direction, landing several feet away.

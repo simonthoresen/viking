@@ -1,0 +1,3 @@
+These are the commands of the guild members, i.e. the commands executed by the
+player inside the artifact's control room. These are monitored by the control
+room so that they are not forwarded to the bee object.

@@ -1,0 +1,39 @@
+QC of project #471: The Jormungand Serpent
+Creator: Khaine
+Submitted: 16-Aug-2010
+QC by: Gaeius
+QC begun: 28-Aug-2010
+QC completed: 31-Aug-2010 
+Project Status: APPROVED
+
+
+.:
+amulet.c [OK]
+con_ring.c [OK]
+dex_ring.c 
+  LANGUAGE: 'cunning' refers more to intelligence. A better
+            choice to refer to dexterity would be 
+	    "agility" or perhaps "nimbleness".
+
+  A: Changed to "agility".
+
+event.c [OK]
+glob.c [OK]
+int_ring.c
+  TYPO: "fills you" -> "fill you"
+        "leaves you" -> "leave you"
+
+  A: Done.
+
+mark.c
+  White text on bright yellow background is quite hard to 
+  read. Also, I'm not crazy about the healing each round..
+  Tune the stat bonuses to 1 each rather than 2.
+
+  A: Color changed to red on yellow. Heart beat is set to 30,
+     so healing only occurs every 60 seconds. Bonus on mark
+     changed to 1.
+
+serpent.c
+str_ring.c [OK]
+tail.c [OK]

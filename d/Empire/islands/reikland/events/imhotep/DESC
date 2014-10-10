@@ -1,0 +1,48 @@
+IMHOTEP WITHOUT GATE SPELL:
+
+Damage over time:                       Damage histogram:
+                                        
+ 360 |  #                                 12 |      # #                       
+     |  #                                    |      # #                       
+     |  #             ##           ##        |    # # #                       
+     |  #             ##     ##    ##        |    # ###                       
+     |  #             ##     ##    ##        |    #####  #                    
+     |  #       #     #### ####   ####       |   #########                    
+     |  # ## ######## ########### ####       |   ######### #                  
+     |### ############################       |   ########### ##               
+     |################################       |  ###############      #        
+     |################################       |  ###############  ##  #       #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              95       0                             360
+
+Hit count over time:                    Hit count histogram:
+                                        
+  15 |                ##                  37 |      ##                        
+     |  #             ##                     |      ##                        
+     |  #             ##                     |      ####                      
+     |  #             ##                     |      ####                      
+     |  #             ##                     |      ####                      
+     |  #             ##                     |      ######                    
+     |  #     ### ##############  ###        |      ######                    
+     |################################       |      ######                    
+     |################################       |    ##########                  
+     |################################       |    ##########            ##  ##
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              95       0                              15
+
+===> Round: 95    Damage: 129   Max: 168  Total: 10010  Average: 104.27
+===> Round: 95    Hits:   5     Max: 15   Total: 391    Average: 4.07
+===> Round: 95    Busy:   0     Max: 2    Total: 10     Average: 0.10
+
+Imhotep can spawn once every 6 hours. He will wander around the island he is in
+and attack anything that is not considered evil. He will also keep summoning
+demons into random rooms on the island he is on until there is at least 20
+demons around. If a demon is killed, another will be summoned somewhere else.
+
+SUMMONED DEMON:
+
+===> Round: 409   Damage: 6     Max: 110  Total: 10039  Average: 24.49
+===> Round: 409   Hits:   1     Max: 4    Total: 524    Average: 1.28
+===> Round: 409   Busy:   0     Max: 4    Total: 27     Average: 0.07
+
+See DESC_EVIL for reward.

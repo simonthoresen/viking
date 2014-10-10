@@ -1,0 +1,8 @@
+The number of slivers that a weapon can have active at the same time, is limited
+by its number of slots. E.g. a spell (which is a sliver) can only be cast if the
+weapon has the required number of "spell" slots available.
+
+The number of slots available to you is shown in your "score".
+
+A weapon starts out with $baseslots slots, which is further modified by the
+shape of the weapon. Do "help shapes" for the details.

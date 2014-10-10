@@ -1,0 +1,43 @@
+Damage over time:                       Damage histogram:
+
+ 371 |                              ##     7 |   #
+     |                           ## ##       |   #
+     |                     ### #######       |   #    #
+     |                   ##### #######       |   #    #
+     |                ################       |   # #  #   #     #
+     |          ######################       |   # # ### ##  #  #    #
+     |      ##  ######################       |   # # ### ##  #  #    #
+     |      ##########################       | # ### ########## ### ##       #
+     |################################       |###########################    #
+     |################################       |###########################    #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              67       0                             371
+
+Hit count over time:                    Hit count histogram:
+
+   4 |                      #  #   ##     41 |             #######
+     |                      #  #   ##        |             #######
+     |            #  #   #############       |             #######
+     |            #  #   #############       |             #######
+     |            #  #   #############       |             #############
+     |################################       |             #############
+     |################################       |             #############
+     |################################       |             #############
+     |################################       |             #############
+     |################################       |       #########################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              67       0                               4
+
+===> Round: 67    Damage: 121   Max: 310  Total: 10008  Average: 147.18
+===> Round: 67    Hits:   2     Max: 4    Total: 161    Average: 2.37
+===> Round: 67    Busy:   4     Max: 4    Total: 9      Average: 0.13
+
+This is one of three heroes that fought Imhotep eons ago. He has returned from
+the dead because Imhotep has returned. He is wielding a sword that deals damage
+based on the wielders 'devotion_holy' tmp- property.
+
+Every __fight_beat, Kaleb gains +5 devotion, so he will quickly become a
+difficult opponent. When not in combat, the additional devotion slowly creeps
+back to 0.
+
+See ../imhotep/DESC_GOOD for reward.

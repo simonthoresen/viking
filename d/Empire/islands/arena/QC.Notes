@@ -1,0 +1,42 @@
+QC of project #477: PvP Arena
+Creator: Khaine
+Submitted: 10-Dec-2010
+QC by: Gaeius and Azatoth
+QC begun: 10-Dec-2010
+QC completed: 14-Dec-2010 
+Project Status:  APPROVED
+
+The arena itself looks good enough, and the __bdeath
+architecture looks like it works fine. Statistics look
+all right. Arena rooms need property no_teleport.
+
+COMMENT: Done
+
+The outside room statistics showing assumes the player
+has screen width 80. Perhaps you should at least check
+for sufficient screen width before forcing the output?
+
+COMMENT: For efficiency, the long desc is static and regenerated only when there
+is a change in the leader boards. Having this reflect on screen width would
+require that it is dynamic, and would cost alot more eval cycles. Even
+/com/g/score.c expects a screen width of 80, and it has been the standard since
+for ever.
+
+We should monitor the usage of the arena. 
+
+COMMENT: There is now a lot of achievements, score tracking and logging, so we
+should be able to look for abuse quite easily.
+
+Features I'd like to see are:
+-Some way of snooping or watching the fighting. I can
+recommend looking at the vampire mist to see one way
+of doing it that might work.
+
+COMMENT: Done. There is now a "lounge" you can enter.
+
+-Organized gambling, but that can easily be added later.
+For this, I was thinking same way as betting on prize
+fights are done irl. And with the 'vig', of course. ;-)
+An NPC should handle this.
+
+COMMENT: I agree. Will look into it.

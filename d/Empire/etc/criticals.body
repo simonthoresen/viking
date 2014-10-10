@@ -1,0 +1,67 @@
+Your blow crashes into the chest.
+#N's blow crashes into the chest.@STUN(1)@WOUND(20)
+#N's blow crashes into the chest.
+
+Your blow strikes the groin. $N doubles over in pain.
+#N's blow strikes the groin. You double over in pain.@STUN(1)@WOUND(30)
+#N's blow strikes the groin. $N doubles over in pain.
+
+Your blow strikes the chest, knocking $N to the ground.
+#N's blow strikes the chest, knocking you to the ground.@STUN(1)@WOUND(30)
+#N's blow strikes the chest, knocking $N to the ground.
+
+Your blow lands with some force in the groin. $N is knocked to the ground.
+#N's blow lands with some force in the groin. You are knocked to the ground.@STUN(1)@WOUND(30)
+#N's blow lands with some force in the groin. $N is knocked to the ground.
+
+Your blow lifts $N into the air and then to the ground.
+#N's blow lifts you into the air and then to the ground.@STUN(1)
+#N's blow lifts $N into the air and then to the ground.
+
+Your blow smashes several ribs.
+#N's blow smashes several ribs.@STUN(1)@WOUND(70)
+#N's blow smashes several ribs.
+
+Your blow smashes $N's collar-bone.
+#N's blow smashes your collar-bone.@STUN(1)@WOUND(90)
+#N's blow smashes $N's collar-bone.
+
+Your blow fractures $N's hip.
+#N's blow fractures your hip.@STUN(2)@WOUND(70)
+#N's blow fractures $N's hip.
+
+Your blow crashes into the solar-plexus region, leaving $N gasping for air.
+#N's blow crashes into your solar-plexus region, leaving you gasping for air.@STUN(2)
+#N's blow crashes into $N's solar-plexus region, leaving $o gasping for air.
+
+Your blow strikes the abdomen, and $N collapses unconscious.
+#N's blow strikes the abdomen, and you collapse unconscious.@STUN(2)@WOUND(50)
+#N's blow strikes the abdomen, and $N collapses unconscious.
+
+$N's ribs are shattered, and a shard of bone is driven into one lung, causing it to collapse. Your opponent falls unconscious.
+Your ribs are shattered, and a shard of bone is driven into one lung, causing it to collapse. You fall unconscious.@STUN(2)@WOUND(70)
+#N's opponent's ribs are shattered, and a shard of bone is driven into one lung, causing it to collapse. $N falls unconscious.
+
+Your blow smashes into $N's abdomen, causing internal injuries. $N falls to the ground in extreme pain.
+#N's blow smashes into your abdomen, causing internal injuries. You fall to the ground in extreme pain.@STUN(3)@WOUND(200)
+#N's blow smashes into $N's abdomen, causing internal injuries. $N falls to the ground in extreme pain.
+
+Your blow crunches into the spine, knocking $N to the ground.
+#N's blow crunches into the spine, knocking you to the ground.@STUN(3)@WOUND(400)
+#N's blow crunches into the spine, knocking $N to the ground.
+
+Your blow shatters the pelvis. $N falls to the ground.
+#N's blow shatters the pelvis. You fall to the ground.@STUN(4)@WOUND(400)
+#N's blow shatters the pelvis. $N falls to the ground.
+
+Your blow caves in $N's chest, rupturing several internal organs and causing death in a matter of seconds.
+#N's blow caves in your chest, rupturing several internal organs and causing death in a matter of seconds.@DIE
+#N's blow caves in $N's chest, rupturing several internal organs and causing death in a matter of seconds.
+
+$N's abdominal cavity ruptures, spilling entrails over a wide area. Death is instantaneous.
+Your abdominal cavity ruptures, spilling entrails over a wide area. Death is instantaneous.@DIE
+$N's abdominal cavity ruptures, spilling entrails over a wide area. Death is instantaneous.
+
+Your blow totally mutilates $N's spine and abdomen, tearing muscle and shattering bone so that $N falls to the ground in seperate places.
+#N's blow totally mutilates your spine and abdomen, tearing muscle and shattering bone so that you fall to the ground in seperate places.@CUT(left arm)@CUT(right arm)@CUT(left leg)@CUT(right leg)@CUT(head)@DIE
+#N's blow totally mutilates $N's spine and abdomen, tearing muscle and shattering bone so that $N falls to the ground in seperate places.

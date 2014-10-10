@@ -1,0 +1,17 @@
+NAME
+
+    Blackrock
+
+DESCRIPTION
+
+    The island "Blackrock" is part of the Empire. It uses the island generation
+    code extensively, as it will randomize and recreate itself whenever someone
+    reaches its innermost sanctum.
+
+    If there are any problems with Blackrock, your best bet as an Arch or 
+    maintaining Wizard is to simply run "igen blackrock" to recreate all the 
+    room files.
+
+SEE ALSO
+
+    igen

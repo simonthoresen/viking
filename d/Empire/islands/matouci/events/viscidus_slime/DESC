@@ -1,0 +1,106 @@
+Damage over time:                       Damage histogram:
+                                        
+ 301 |                              ##    10 |             #                  
+     |                             ###       |             #                  
+     |                       # #  ####       |             #                  
+     |     #   #        #   ## #######       |             #                  
+     |#   ##   ##     ### # ##########       |             ##                 
+     |####### #### ######## ##########       |             ## #               
+     |################################       |          # ### ##    #         
+     |################################       |         ##########  ##         
+     |################################       |         ########### ## ##     #
+     |################################       |      ## ########### ######    #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              64       0                             301
+
+Hit count over time:                    Hit count histogram:
+                                        
+   8 |                      #   #         27 |                      #######   
+     |       #  ### # ###  ###########       |                      #######   
+     |###### ###### ##################       |                      #######   
+     |################################       |                      #######   
+     |################################       |                      #######   
+     |################################       |                      #######   
+     |################################       |                      #######   
+     |################################       |                  ###########   
+     |################################       |                  ###########   
+     |################################       |               #################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                              64       0                               8
+
+===> Round: 64    Damage: 113   Max: 179  Total: 10007  Average: 153.95
+===> Round: 64    Hits:   1     Max: 8    Total: 407    Average: 6.26
+===> Round: 64    Busy:   0     Max: 2    Total: 8      Average: 0.12
+
+The Viscidus slime is a remake of a mob from World of Warcraft. It is a giant
+slime that goes through multiple phases during combat.
+
+* Phase 1: Only vulnerable to cold. As more and more cold attacks land on him,
+  he slows down until he freezes solid. As this happens he becomes less of a
+  thread; attacking slower and not using all his abilities.
+
+* Phase 2: Only vulnerable to mundane damage types. During this phase Viscidus
+  does nothing until he thaws and goes back to phase 1.
+
+* Phase 3: When Viscidus is reduced to 0 hp, he shatters into multiple small
+  globs. These globs will slowly come together and reform Viscidus. The less
+  globs that survive this phase, the less hp the new Viscidus has.
+
+The abilities available to him at phase 1 depends on the number of cold attacks
+landed:
+
+* Less than FROZEN_SLOW: +2 attacks per beat, and an aoe bleed effect every
+  BONE_VOLLEY beat.
+
+* Less than FROZEN_FREEZE: +2 attacks per beat, and an aoe attack every
+  POISON_SHOCK beat.
+
+* Less than FROZEN_SOLID: +1 attack per beat, and an aoe attack that also sets
+  the busy flag for each players.
+
+This means that this mob starts out with 6 attacks each turn along with 3
+special abilities, then 4 attacks and 2 abilities, and finally 2 attacks and 1
+abilitiy.
+
+Viscidus drops a 0 ac ring that adds __damage_dealt hooks to the wearer that
+will allow Empire criticals to occur for every inflicted hit. The seriousness of
+the critical inflicted depends on the foe's percentage hp, similar to the
+Tyrfing sword from the rust monster.
+
+Against a default hurtme with cold attacks and 66 wc (this allows hurtme to
+slow down the attack speed and special abilities of the slime, but as it thaws
+they come back again):
+
+Damage over time:                       Damage histogram:
+                                        
+ 169 |            #                  #    26 |#                               
+     |##          #                  #       |#                               
+     |##        ###       ##      #  #       |#                               
+     |##       ####      ####    ##  #       |#                               
+     |####     ####     ###### # ### #       |#                               
+     |#####    ##### #  ###### ##### #       |#       # #  #                  
+     |#######  ######## ############ #       |#    #  #### # ##               
+     |######## ######## ############ #       |#    # ##### ##### #            
+     |######## ######## ############ #       |# # ## ########### ######       
+     |######## #######################       |########################## ### #
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             167       0                             169
+
+Hit count over time:                    Hit count histogram:
+                                        
+   6 |#        #                     #    39 |          #############         
+     |#        ##         # ##       #       |          #############         
+     |#        ##         # ##       #       |          #############         
+     |####     ####     ######  ###  #       |#####     #############         
+     |####     ####     ######  ###  #       |#####     #############         
+     |####     ######## ###### ##### #       |#####     #############         
+     |######## ######## ############ #       |#######################         
+     |######## ######## ############ #       |############################    
+     |######## #######################       |################################
+     |######## #######################       |################################
+   0 +-------------------------------->    0 +-------------------------------->
+     0                             167       0                               6
+
+===> Round: 167   Damage: 44    Max: 83   Total: 10017  Average: 59.63
+===> Round: 167   Hits:   3     Max: 6    Total: 438    Average: 2.61
+===> Round: 167   Busy:   0     Max: 3    Total: 16     Average: 0.10
