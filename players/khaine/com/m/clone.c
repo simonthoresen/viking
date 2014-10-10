@@ -1,0 +1,1 @@
+inherit "/com/w/clone";

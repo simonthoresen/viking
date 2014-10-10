@@ -1,0 +1,20 @@
+If you want to do some testing of your mobs, you can clone
+/d/Empire/obj/hurtmee. Whenever that npc either kills or gets killed, it will
+output a large graph of damage done, attacks per round, etc.
+
+This is what an average blackrock npc would output at the various dangerlevels:
+
+At danger level 0:
+===> Round: 146   Damage: 2     Max: 48   Total: 2537   Average: 17.26
+===> Round: 146   Hits:   1     Max: 2    Total: 151    Average: 1.03
+===> Round: 146   Busy:   0     Max: 0    Total: 0      Average: 0.00
+
+At danger level 50:
+===> Round: 64    Damage: 2     Max: 44   Total: 2113   Average: 32.51
+===> Round: 64    Hits:   1     Max: 4    Total: 105    Average: 1.62
+===> Round: 64    Busy:   0     Max: 2    Total: 4      Average: 0.06
+
+At danger level 100:
+===> Round: 81    Damage: 2     Max: 49   Total: 3260   Average: 39.76
+===> Round: 81    Hits:   1     Max: 3    Total: 140    Average: 1.71
+===> Round: 81    Busy:   0     Max: 2    Total: 5      Average: 0.06
